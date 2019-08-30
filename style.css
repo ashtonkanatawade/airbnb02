@@ -63,12 +63,41 @@
     padding-left: 40px;
 }​
 
-.notice {
-  background-color: blue !important;
-}
-
 p {
   font-size: 14px;
   color: #484848;
-  text-align: center;
+  display: inline-block;
+
+}
+
+.notice p {
+  line-height: 49px;
+}
+
+.notice {
+height: 49px;
+text-align: center;
+font-size: 14px;
+}
+
+.fa-comment-dots {
+  color: #4CB0BB;
+  position: absolute;
+  left: 120px;
+  top: 10px;
+
+}
+
+.close-modal {
+  position: fixed;
+  top: 19%;
+  right: 2%;
+  cursor: pointer;
+}
+
+.main {
+  background-image: url("img/BackgroundHomeSummer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
 }
