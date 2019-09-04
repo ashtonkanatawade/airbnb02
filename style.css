@@ -245,6 +245,7 @@ h3 {
 .btn-danger:hover {
   background-color: #FF7E82 !important;
 }
+<<<<<<< HEAD
 
 ul {
   list-style: none;
@@ -349,3 +350,5 @@ footer {
   margin-top: 15px;
   margin-bottom: 30px;
 }
+=======
+>>>>>>> origin/master
