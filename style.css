@@ -6,6 +6,7 @@ body {
   color: #FF5A5F;
 }
 
+
 .navbar {
   background-color: white;
   height: 64px;
@@ -16,7 +17,15 @@ body {
   font-size: 14px !important;
   font-weight: bold;
   /* line-height: 14px; */
+  margin-top: 32px;
 }
+
+.nav-item {
+  height: 94px;
+}
+.nav-item:hover {
+  border-bottom: 2px solid grey;
+  }
 
 #logo {
   height: 34px;
@@ -92,10 +101,11 @@ p {
 }
 
 .notice {
-height: 49px;
+/* height: 49px; */
+height: 8%;
 text-align: center;
 position: fixed;
-z-index:20;
+z-index:999;
 
 }
 
@@ -113,21 +123,24 @@ z-index:20;
 }
 
 #msg {
+  position: absolute;
   z-index: 20;
   font-size: 18px;
-  margin-left: 10%;
+  left: 10%;
   font-weight: normal;
   line-height: 26px;
+  top:48%;
 }
 
 .gift-btn {
-  margin-left: 10%;
+  position: absolute;
+  left: 10%;
   width: 191px !important;
   height: 48px !important;
   font-size: 16px !important;
   font-weight: bold !important;
   color: #484848 !important;
-  margin-top: 8px;
+  top: 58%;
 
 }
 
@@ -139,17 +152,27 @@ z-index:20;
   color:#004C54
 }
 
+.close-modal:hover {
+  color: #1B6169;
+}
+
 .main {
   background-image: url("img/BackgroundHomeSummer.jpg");
   background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
-  height: 600px;
+  /* height: 600px; */
+  padding-top: 54.993067591%;
+  width: 100%;
+  height: 0px;
   color: white;
+  position: absolute;
 }
 
 .main h1 {
-  margin-top: 20%;
-  margin-left: 10%;
+  position: absolute;
+  top: 35% ;
+  left: 10%;
   font-size: 46px;
   font-weight: bold;
 }
@@ -245,7 +268,6 @@ h3 {
 .btn-danger:hover {
   background-color: #FF7E82 !important;
 }
-<<<<<<< HEAD
 
 ul {
   list-style: none;
@@ -279,10 +301,10 @@ ul {
 }
 
 .footer div i {
-  font-size: 18px;
+  font-size: 17px;
   margin-right: 12px;
   margin-bottom: 20px;
-
+  margin-left: 5px;
 }
 
 .new:after {
@@ -350,5 +372,270 @@ footer {
   margin-top: 15px;
   margin-bottom: 30px;
 }
-=======
->>>>>>> origin/master
+
+.button:focus {
+	outline:0;
+}
+
+.button:hover {
+	background-color: rgb(235, 235, 235);
+}
+
+.fab:hover {
+  cursor: pointer;
+}
+
+.fa-angle-down {
+  display: none !important;
+}
+
+.menu a {
+  color:  #4F4F4F;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  text-decoration: none;
+  color:  #4F4F4F;
+}
+
+.menu span {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+.menu p {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.menu li {
+  margin: 27px 0;
+  cursor: pointer;
+}
+
+.panel-body {
+z-index: 30;
+width: 100%;
+}
+
+.submenu {
+display: none;
+}
+
+.menu {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    width: 100%;
+    background: white;
+    color: #fff;
+    overflow: hidden;
+}
+
+.fa-home {
+    display: inline-block;
+    float: right;
+    color: #007a87;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+@media (min-width: 600px) and (max-width: 1033px) {
+    .notice{
+        height: 69px;
+    }
+
+    .notice p{
+        line-height:0px;
+    }
+
+    .close-modal {
+      right: 0%;
+    }
+
+    .fa-angle-down {
+      display: inline-block !important;
+      margin-top: 15px;
+      color: black;
+    }
+
+    .nav-link {
+      display: none !important;
+    }
+
+    .rotate{
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    }
+
+    .rotate.down{
+        -moz-transform:rotate(180deg);
+        -webkit-transform:rotate(180deg);
+        transform:rotate(180deg);
+    }
+
+    .footer {
+      display: none;
+    }
+
+    .japan{
+      position: absolute;
+      bottom: -985px;
+      right:90px;
+
+    }
+
+  .yen{
+    position: absolute;
+bottom: -985px;
+    right:10px;
+  }
+
+    .msg3 {
+      position: absolute;
+    left: 50px;
+
+    }
+
+    #logo-footer {
+      position: absolute;
+      left: 20px;
+    }
+
+    #border {
+    display: none;
+  }
+
+.wrapper-footer {
+    margin: 0px 0px 0px 0px !important;
+}
+.main h1 {
+  top: 35% ;
+  left: 3%;
+  font-size: 36px;
+}
+
+#msg {
+  left: 3%;
+  top:55%;
+}
+
+.gift-btn {
+  left: 3%;
+  top: 73%;
+
+}
+.btn-danger {
+width:600px !important;
+text-align: center !important;
+}
+
+#cancel {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top:25px;
+  color: #484848;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#cancel:hover {
+  /*display: none;*/
+  text-decoration: none;
+}
+
+/* .search-query {
+  width: 500px !important;
+  height: 48px !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px !important; */
+      /* transition: all 200ms ease !important; */
+      /* transition: box-shadow 200ms ease-in 0s !important; */
+      /* -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+      border-width: 1px !important;
+      border-style: solid !important;
+      border-color: rgb(235, 235, 235) !important; */
+      /* border-image: initial !important; */
+      /* border-radius: 4px !important; */
+
+  /* } */
+
+/* .search-query:focus {
+    -webkit-transform: translate(-80px, 0px) !important;
+    -moz-transform: translate(-80px, 0px) !important;
+    -o-transform: translate(-80px, 0px) !important;
+    transform: translate(-80px, 0px) !important;
+    width: 460px !important; */
+
+}
+
+
+@media (min-width: 500px) and (max-width: 1033px) {
+    .notice{
+        height: 69px;
+    }
+
+    .notice p{
+        line-height:0px;
+    }
+
+    .close-modal {
+      right: 0%;
+    }
+
+  .fa-angle-down {
+    display: inline-block !important;
+    margin-top: 15px;
+    color: black;
+  }
+
+  .nav-link {
+    display: none !important;
+  }
+
+        #border {
+        display: none;
+      }
+
+  .fa-angle-down {
+    display: inline-block !important;
+    margin-top: 15px;
+    color: black;
+  }
+
+  .nav-link {
+    display: none !important;
+  }
+
+.footer {
+  display: none;
+}
+
+.japan{
+  position: absolute;
+  bottom: -85px;
+  right:90px;
+
+}
+
+.yen{
+position: absolute;
+bottom: -85px;
+right:10px;
+}
+
+.search-query:focus {
+  width: 470px !important;
+}
+
+.search-query {
+  width: 470px !important;
+}

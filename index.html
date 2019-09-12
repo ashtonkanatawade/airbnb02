@@ -1,10 +1,8 @@
 <!doctype html>
 <html lang="ja">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="shortcut icon" href="logo.ico" >
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -17,27 +15,40 @@
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav4" aria-controls="navbarNav4" aria-expanded="false" aria-label="Toggle navigation">
            <span class="navbar-toggler-icon"></span>
        </button>
-       <a class="navbar-brand" href="#">  <span id="logo" class="iconify" data-icon="fa-brands:airbnb" data-inline="false"></span></a>
-       <!-- <i class="fas fa-angle-down"></i> -->
-       <!-- <form class="form-inline">
-              <i class="fas fa-search"></i>
-              <input class="form-control mr-sm-1" type="search" placeholder="&#xf002; 探す">
-        </form> -->
-
+       <a class="navbar-brand" href="#"><span id="logo" class="iconify" data-icon="fa-brands:airbnb" data-inline="false"></span></a>
+       <a href="#"><div class="fa fa-chevron-down rotate fa-angle-down button-toggle"></div></a>
+        <div class="menu panel-body">
+          <ul>
+            <a href=""><li>ホーム</li></a>
+            <hr>
+            <a href=""><li>友達を招待する</li></a>
+            <a href=""><li>Refer hosts</li></a>
+            <a href=""><li>Airbnbビジネスプログラム</li></a>
+            <hr>
+            <a href=""><li>お部屋を掲載
+            <p><span>月あたり最大115,410</span>の収益<i class="fas fa-home"></i></p></li></a>
+            <a href=""><li>お家のホスティングについて</li></a>
+            <a href=""><li>体験をホストする
+            <p>好きを仕事に</p></li></a>
+            <hr>
+            <a href=""><li>ヘルプ</li></a>
+            <a href=""><li>登録する</li></a>
+            <a href=""><li>ログイン</li></a>
+          </ul>
+        </div>
         <div class="navbar navbar-fixed-top">
           <div class="navbar-inner">
             <div class="container">
-            <!-- タイトルとかメニュー -->
               <div class="navbar-search">
-                <!-- <div class="icon-search"></div> -->
                 <i class="fas fa-search"></i>
-                <input type="text" class="search-query span3" placeholder="探す">
+                <input type="text" id="query" class="search-query span3" placeholder="探す">
               </div>
             </div>
           </div>
-        </div>
+        <!-- <div class="form-inline"> -->
 
-     <div class="collapse navbar-collapse justify-content-end">
+        </div>
+      <div class="collapse navbar-collapse justify-content-end hidden-tablet hidden-phone">
            <ul class="navbar-nav">
                <li class="nav-item active">
                    <a class="nav-link" href="#">ホストをはじめる</a>
@@ -48,51 +59,51 @@
                <li class="nav-item">
                    <a class="nav-link" href="#">登録する</a>
                </li>
-               <li class="nav-item">
+              <li class="nav-item">
                    <a class="nav-link" href="#">ログイン</a>
                </li>
            </ul>
-       </div>
+      </div>
+   <a  id="cancel" href="">キャンセル</a>
    </nav>
+
     <div class="container-fluid">
       <div class="row">
         <div class="col-12 position-fixed notice" style="background-color:#C2E4E7;">
-            <p><i class="far fa-comment-dots fa-2x"></i>
-      今のところ、ギフトカードはアメリカ居住者のみご購入いただけます。アメリカにお住いの場合は、アカウントの設定から居住国を更新してください。</p>
-            <i class="fa fa-lg fa-times close-modal"></i>
+            <p><i class="far fa-comment-dots fa-2x"></i>今のところ、ギフトカードはアメリカ居住者のみご購入いただけます。アメリカにお住いの場合は、アカウントの設定から居住国を更新してください。</p>
+            <i id="close" class="fa fa-lg fa-times close-modal"></i>
         </div>
         <div class="col-12 main">
-            <h1>旅を贈ろう。</h1>
-            <p id="msg">Airbnbギフトカードで、世界をぐんと身近に</p>
-            <button type="button" class="gift-btn btn btn-light btn-lg">ギフトカードを登録</button>
+          <h1>旅を贈ろう。</h1>
+          <p id="msg">Airbnbギフトカードで、世界をぐんと身近に</p>
+          <button type="button" class="gift-btn btn btn-light btn-lg">ギフトカードを登録</button>
         </div>
 
         <div class="col-lg-12 main1 row">
           <h1 class="center-block">いつも完璧な贈りもの</h1>
         </div>
         <div class="row main2">
-        <div class="col-md-4">
-          <div id="sub" >
-            <i class="far fa-envelope"></i>
-            <h3 class="msg1">簡単に使える</h3>
-            <p class="msg2">ギフトカードはメールで届きます。Airbnbアカウントへのギフト登録も超かんたん。</p>
+          <div class="col-md-4">
+            <div id="sub" >
+              <i class="far fa-envelope"></i>
+              <h3 class="msg1">簡単に使える</h3>
+              <p class="msg2">ギフトカードはメールで届きます。Airbnbアカウントへのギフト登録も超かんたん。</p>
+            </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div id="sub" >
-            <i class="fas fa-stopwatch"></i>
-            <h3 class="msg1">有効期限なし</h3>
-            <p class="msg2">Airbnbギフトカードは無期限。だから友達も時間をかけて旅をプランできます。</p>
+          <div class="col-md-4">
+            <div id="sub" >
+              <i class="fas fa-stopwatch"></i>
+              <h3 class="msg1">有効期限なし</h3>
+              <p class="msg2">Airbnbギフトカードは無期限。だから友達も時間をかけて旅をプランできます。</p>
+            </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div  id="sub" >
-            <i class="fas fa-globe"></i>
-            <h3 class="msg1">忘れられない旅</h3>
-            <p class="msg2">お家は100万件以上あるので、ずっと住みたいと憧れていた街の暮らしも叶います。</p>
+          <div class="col-md-4">
+            <div  id="sub" >
+              <i class="fas fa-globe"></i>
+              <h3 class="msg1">忘れられない旅</h3>
+              <p class="msg2">お家は100万件以上あるので、ずっと住みたいと憧れていた街の暮らしも叶います。</p>
+            </div>
           </div>
-        </div>
-<<<<<<< HEAD
       </div>
 
       <div class="col-12 main3">
@@ -100,154 +111,131 @@
           <img src="img/Present Icon.png" alt="">
           <h1>ギフトカードをもらったら…</h1>
           <p>ログインあるいは利用登録してギフトを登録するだけです。あとは使い途をゆっくり考えましょう。</p>
-          <button type="button" class="btn btn-danger border-0" style="font-weight:bold; height: 42px; width:232px;">ギフトカードを登録する</button>
-          <div><a href="">Airbnbギフトカードの仕組みは？</a></div>
-        </div>
-=======
->>>>>>> origin/master
-      </div>
-    </div>
-
-<<<<<<< HEAD
-<div class="row wrapper-footer">
-<div class="col-md-3 footer">
-  <div>
-    <p>Airbnb</p>
-    <ul>
-      <li><a href="">採用情報</a></li>
-      <li><a href="">ポリシー</a></li>
-      <li><a href="">ニュース</a></li>
-      <li><a href="">ヘルプ</a></li>
-      <li><a href="">ダイバーシティ&ビロンギング</a></li>
-      <li class="new"><a href="">アクセシビリティ対応</a></li>
-      <li><a href="">企業情報</a></li>
-    </ul>
-  </div>
-</div>
-<div class="col-md-3 footer">
-  <div>
-    <p>スタッフのおすすめ</p>
-    <ul>
-      <li><a href="">信頼&安全</a></li>
-      <li><a href="">お友達紹介クーポン</a></li>
-      <li><a href="">Airbnb Citizen</a></li>
-      <li><a href="">出張</a></li>
-      <li><a href="">ガイドブック</a></li>
-      <li><a href="">Airbnbmag</a></li>
-    </ul>
-  </div>
-</div>
-<div class="col-md-3 footer">
-  <div>
-    <p>ホスティング</p>
-    <ul>
-      <li><a href="">ホストになる理由</a></li>
-      <li><a href="">おもてなしの心</a></li>
-      <li><a href="">ホストの責任</a></li>
-      <li><a href="">コミュニティセンター</a></li>
-      <li class="new"><a href="">体験を掲載</a></li>
-      <li><a href="">オープンホーム</a></li>
-=======
-      <div class="col-12 main3">
-        <div class="sub1">
-          <img src="img/Present Icon.png" alt="">
-          <h1>ギフトカードをもらったら…</h1>
-          <p>ログインあるいは利用登録してギフトを登録するだけです。あとは使い途をゆっくり考えましょう。</p>
-          <button type="button" class="btn btn-danger border-0" style="font-weight:bold; height: 42px; width:232px;">ギフトカードを登録する</button>
+            <button type="button" class="btn btn-danger border-0" style="font-weight:bold; height: 42px; width:232px;">ギフトカードを登録する</button>
           <div><a href="">Airbnbギフトカードの仕組みは？</a></div>
         </div>
       </div>
     </div>
-
-<div class="col-12">
-  <div>
-    Airbnb
-    <ul>
-      <li>採用情報</li>
-      <li>ニュース</li>
-      <li>ポリシー</li>
-      <li>ヘルプ</li>
-      <li>ダイバーシティ&ビロンギング</li>
-      <li>アクセシビリティ対応</li>
-      <li>企業情報</li>
-    </ul>
   </div>
-  <div>
-    スタッフのおすすめ
-    <ul>
-      <li>信頼&安全</li>
-      <li>お友達紹介クーポン</li>
-      <li>Airbnb Citizen</li>
-      <li>出張</li>
-      <li>ガイドブック</li>
-      <li>Airbnbmag</li>
-    </ul>
+  <div class="row wrapper-footer">
+  <div class="col-md-3 footer">
+    <div>
+      <p>Airbnb</p>
+      <ul>
+        <li><a href="">採用情報</a></li>
+        <li><a href="">ポリシー</a></li>
+        <li><a href="">ニュース</a></li>
+        <li><a href="">ヘルプ</a></li>
+        <li><a href="">ダイバーシティ&ビロンギング</a></li>
+        <li class="new"><a href="">アクセシビリティ対応</a></li>
+        <li><a href="">企業情報</a></li>
+      </ul>
+    </div>
   </div>
-  <div>
-    ホスティング
-    <ul>
-      <li>ホストになる理由</li>
-      <li>おもてなしの心</li>
-      <li>ホストの責任</li>
-      <li>コミュニティセンター</li>
-      <li>体験を掲載新着</li>
-      <li>オープンホーム</li>
-    </ul>
+  <div class="col-md-3 footer">
+    <div>
+      <p>スタッフのおすすめ</p>
+      <ul>
+        <li><a href="">信頼&安全</a></li>
+        <li><a href="">お友達紹介クーポン</a></li>
+        <li><a href="">Airbnb Citizen</a></li>
+        <li><a href="">出張</a></li>
+        <li><a href="">ガイドブック</a></li>
+        <li><a href="">Airbnbmag</a></li>
+      </ul>
+    </div>
   </div>
-  <div>
-    <i class="fab fa-facebook-f"></i>
-    <i class="fab fa-twitter"></i>
-    <i class="fab fa-instagram"></i>
-    <ul>
-      <li>利用規約</li>
-      <li>プライバシー</li>
-      <li>サイトマップ</li>
->>>>>>> origin/master
-    </ul>
+  <div class="col-md-3 footer">
+    <div>
+      <p>ホスティング</p>
+      <ul>
+        <li><a href="">ホストになる理由</a></li>
+        <li><a href="">おもてなしの心</a></li>
+        <li><a href="">ホストの責任</a></li>
+        <li><a href="">コミュニティセンター</a></li>
+        <li class="new"><a href="">体験を掲載</a></li>
+        <li><a href="">オープンホーム</a></li>
+      </ul>
+    </div>
   </div>
-</div>
-<div class="col-md-3 footer">
-  <div>
-    <ul>
+  <div class="col-md-3 footer">
+    <div>
+      <ul>
         <i class="fab fa-facebook-f"></i>
         <i class="fab fa-twitter"></i>
         <i class="fab fa-instagram"></i>
-      <li><a href="">利用規約</a></li>
-      <li><a href="">プライバシー</a></li>
-      <li><a href="">サイトマップ</a></li>
-    </ul>
+        <li><a href="">利用規約</a></li>
+        <li><a href="">プライバシー</a></li>
+        <li><a href="">サイトマップ</a></li>
+      </ul>
+    </div>
   </div>
-</div>
-</div>
-<hr id="border">
+  </div>
+  <hr id="border">
 
-<<<<<<< HEAD
-<footer>
-  <div id="logo-footer" class="iconify" data-icon="fa-brands:airbnb" data-inline="false"></div>
-  <div class="msg3">
-    <a href="">Airbnb Global Services Limited<br>
-    観光庁長官(01)第S0001号(2018年6月15日-2023年6月14日)</a>
-    <p>&copy; 2019 Airbnb, Inc. All rights reserved.</p>
-  </div>
-    <button class="button" type="button" name="button">JPY - &yen;</button>
-    <button class="button" type="button" name="button">日本語</button>    
-</footer>
-=======
   <footer>
-    <hr>
-    <img src="" alt="">
-    <a href="">Airbnb Global Services Limited
-観光庁長官(01)第S0001号(2018年6月15日-2023年6月14日)</a>
-<p>&copy; 2019 Airbnb, Inc. All rights reserved.</p>
-  <button type="button" name="button">日本語</button>
-  <button type="button" name="button">JPY - &yen;</button>
-  </footer>
->>>>>>> origin/master
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <div id="logo-footer" class="iconify" data-icon="fa-brands:airbnb" data-inline="false"></div>
+    <div class="msg3">
+      <a href="">Airbnb Global Services Limited<br>
+      観光庁長官(01)第S0001号(2018年6月15日-2023年6月14日)</a>
+      <p>&copy; 2019 Airbnb, Inc. All rights reserved.</p>
+    </div>
+      <button class="button yen" type="button" name="button">JPY - &yen;</button>
+      <button class="button japan" type="button" name="button">日本語</button>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>
+      $(".close-modal").on("click", function() {
+        $(".notice").remove();
+      });
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js?ver=1.8.3"></script>
+    <script>
+    $(function(){
+      $(".menu").css("display","none");
+      $(".button-toggle").on("click", function() {
+        $(".menu").slideToggle();
+        $(this).toggleClass("active");
+        $(this).toggleClass("down");
+        if($(this).hasClass('active')){
+        $( '.menu' ).next('ul').slideToggle();
+        $(".main2").hide();
+        $(".main3").hide();
+        $(".footer").hide();
+        $(".msg3").hide();
+        $(".navbar-search").hide();
+        $("footer").hide();
+      } else {
+        $(".main2").show();
+        $(".main3").show();
+        //$(".footer").show();
+        $(".msg3").show();
+        $(".navbar-search").show();
+        $("footer").show();
+        }
+      });
+
+
+      $("#query,.fa-search").on("click", function() {
+        $(this).toggleClass("active");
+        if($(this).hasClass("active")){
+        $(".navbar-search").animate({'left':'-70px'},200);
+        $(".fa-search").hide();
+        $(".navbar-search .search-query:focus, .navbar-search .search-query.focused").css('padding-left','10px');
+        $("#cancel").fadeIn(1000);
+        } else {
+        $(".navbar-search").animate({'left':'30px'},200);
+        $(".fa-search").show();
+        $(".navbar-search .search-query:focus, .navbar-search .search-query.focused").css('padding-left','40px');
+        $("#cancel").hide();
+        }
+      });
+
+    });
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="script.js"></script>
+
   </body>
 </html>
