@@ -1,3 +1,4 @@
+
 body {
   font-family: Circular, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "MS Gothic", "ＭＳ ゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -5,6 +6,7 @@ body {
 .iconify {
   color: #FF5A5F;
 }
+
 
 
 .navbar {
@@ -111,15 +113,8 @@ z-index:999;
 
 .fa-comment-dots {
   color: #4CB0BB;
-  /* position: absolute; */
-  /* left: 120px;
-  top: 10px;
-  z-index: 20;
-  float: left; */
-  /* height: 49px; */
   display: table-cell; vertical-align: middle;
   margin: 10px;
-
 }
 
 #msg {
@@ -185,6 +180,7 @@ input[type="text"]:focus {
   /* display: inline-block; */
   height: 169px;
   text-align: center;
+  margin-top: 50px;
 }
 
 h3 {
@@ -208,6 +204,9 @@ h3 {
   line-height: 50px;
 }
 
+.sp_br {
+  display: none;
+}
 .msg1 {
   font-size: 18px !important;
   line-height: 20px !important;
@@ -444,6 +443,10 @@ display: none;
     line-height: 50px;
 }
 
+#cancel {
+  display: none;
+}
+
 @media (min-width: 600px) and (max-width: 1033px) {
     .notice{
         height: 69px;
@@ -499,7 +502,6 @@ bottom: -985px;
     .msg3 {
       position: absolute;
     left: 50px;
-
     }
 
     #logo-footer {
@@ -625,6 +627,7 @@ text-align: center !important;
   right:90px;
 
 }
+}
 
 .yen{
 position: absolute;
@@ -636,6 +639,141 @@ right:10px;
   width: 470px !important;
 }
 
+
 .search-query {
   width: 470px !important;
+}
+
+@media screen and (min-width: 400px) and (max-width: 499px) {
+
+#logo {
+  position: relative;
+  right: 130px;
+}
+
+.notice{
+        height: 89px;
+    }
+
+      .notice p{
+          line-height:20px;
+      }
+
+    .close-modal {
+      right: 0%;
+    }
+
+.navbar-search {
+
+
+}
+  .fa-angle-down {
+    display: inline-block !important;
+    margin-top: 15px;
+    color: black;
+    position: relative;
+    right: 220px;
+  }
+
+  .nav-link {
+    display: none !important;
+  }
+
+        #border {
+        display: none;
+      }
+
+  .nav-link {
+    display: none !important;
+  }
+
+.footer {
+  display: none;
+}
+
+.japan{
+  position: relative;
+  bottom: 0px;
+  left:100px;
+
+}
+
+.yen{
+position: relative;
+bottom: -35px;
+left:22px;
+}
+
+.search-query:focus {
+  width: 350px !important;
+}
+
+.search-query {
+  width: 350px !important;
+}
+
+.container {
+position: relative;
+right: 320px;
+top: -35px;
+}
+
+.main h1 {
+  position: absolute;
+  top: 35% ;
+  left: 10%;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#msg {
+  top:58%;
+}
+
+.gift-btn {
+  left: 10%;
+  top: 78%;
+}
+
+.fa-comment-dots {
+  margin: 8px;
+}
+
+.main1 h1 {
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.sub1 p {
+  margin-bottom: 25px;
+}
+
+.btn-danger {
+width:420px !important;
+text-align: center !important;
+}
+
+  .msg3 {
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+  }
+
+#logo-footer {
+  position: absolute;
+  left: 20px;
+}
+
+.sp_br {
+  display: inline;
+}
+
+.main3 {
+  height: 318px;
+}
+
+.wrapper-footer {
+    margin: 0px 0px 0px 0px !important;
+}
+
 }

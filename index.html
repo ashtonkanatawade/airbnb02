@@ -79,25 +79,25 @@
           <button type="button" class="gift-btn btn btn-light btn-lg">ギフトカードを登録</button>
         </div>
 
-        <div class="col-lg-12 main1 row">
+        <div class="col-lg-12 col-xs-12 main1 row">
           <h1 class="center-block">いつも完璧な贈りもの</h1>
         </div>
         <div class="row main2">
-          <div class="col-md-4">
+          <div class="col-md-4 col-xs-12">
             <div id="sub" >
               <i class="far fa-envelope"></i>
               <h3 class="msg1">簡単に使える</h3>
               <p class="msg2">ギフトカードはメールで届きます。Airbnbアカウントへのギフト登録も超かんたん。</p>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-xs-12">
             <div id="sub" >
               <i class="fas fa-stopwatch"></i>
               <h3 class="msg1">有効期限なし</h3>
               <p class="msg2">Airbnbギフトカードは無期限。だから友達も時間をかけて旅をプランできます。</p>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-xs-12">
             <div  id="sub" >
               <i class="fas fa-globe"></i>
               <h3 class="msg1">忘れられない旅</h3>
@@ -108,7 +108,6 @@
 
       <div class="col-12 main3">
         <div class="sub1">
-          <img src="img/Present Icon.png" alt="">
           <h1>ギフトカードをもらったら…</h1>
           <p>ログインあるいは利用登録してギフトを登録するだけです。あとは使い途をゆっくり考えましょう。</p>
             <button type="button" class="btn btn-danger border-0" style="font-weight:bold; height: 42px; width:232px;">ギフトカードを登録する</button>
@@ -177,7 +176,7 @@
     <div id="logo-footer" class="iconify" data-icon="fa-brands:airbnb" data-inline="false"></div>
     <div class="msg3">
       <a href="">Airbnb Global Services Limited<br>
-      観光庁長官(01)第S0001号(2018年6月15日-2023年6月14日)</a>
+      観光庁長官(01)第S0001号(2018年6月15<br class="sp_br">日-2023年6月14日)</a>
       <p>&copy; 2019 Airbnb, Inc. All rights reserved.</p>
     </div>
       <button class="button yen" type="button" name="button">JPY - &yen;</button>
@@ -191,47 +190,45 @@
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js?ver=1.8.3"></script>
     <script>
-    $(function(){
-      $(".menu").css("display","none");
-      $(".button-toggle").on("click", function() {
-        $(".menu").slideToggle();
-        $(this).toggleClass("active");
-        $(this).toggleClass("down");
-        if($(this).hasClass('active')){
-        $( '.menu' ).next('ul').slideToggle();
-        $(".main2").hide();
-        $(".main3").hide();
-        $(".footer").hide();
-        $(".msg3").hide();
-        $(".navbar-search").hide();
-        $("footer").hide();
-      } else {
-        $(".main2").show();
-        $(".main3").show();
-        //$(".footer").show();
-        $(".msg3").show();
-        $(".navbar-search").show();
-        $("footer").show();
-        }
-      });
-
-
-      $("#query,.fa-search").on("click", function() {
-        $(this).toggleClass("active");
-        if($(this).hasClass("active")){
-        $(".navbar-search").animate({'left':'-70px'},200);
-        $(".fa-search").hide();
-        $(".navbar-search .search-query:focus, .navbar-search .search-query.focused").css('padding-left','10px');
-        $("#cancel").fadeIn(1000);
-        } else {
-        $(".navbar-search").animate({'left':'30px'},200);
-        $(".fa-search").show();
-        $(".navbar-search .search-query:focus, .navbar-search .search-query.focused").css('padding-left','40px');
-        $("#cancel").hide();
-        }
-      });
-
+  $(function(){
+    $(".menu").css("display","none");
+    $(".button-toggle").on("click", function() {
+      $(".menu").slideToggle();
+      $(this).toggleClass("active");
+      $(this).toggleClass("down");
+      if($(this).hasClass('active')){
+      $( '.menu' ).next('ul').slideToggle();
+      $(".main2").hide();
+      $(".main3").hide();
+      $(".footer").hide();
+      $(".msg3").hide();
+      $(".navbar-search").hide();
+      $("footer").hide();
+    } else {
+      $(".main2").show();
+      $(".main3").show();
+      //$(".footer").show();
+      $(".msg3").show();
+      $(".navbar-search").show();
+      $("footer").show();
+      }
     });
+
+    $("#query,.fa-search").on("click", function() {
+      $(this).toggleClass("active");
+      if($(this).hasClass("active")){
+      $(".navbar-search").animate({'left':'-70px'},200);
+      $(".fa-search").hide();
+      $(".navbar-search .search-query:focus, .navbar-search .search-query.focused").css('padding-left','10px');
+      $("#cancel").fadeIn(1000);
+      } else {
+      $(".navbar-search").animate({'left':'30px'},200);
+      $(".fa-search").show();
+      $(".navbar-search .search-query:focus, .navbar-search .search-query.focused").css('padding-left','40px');
+      $("#cancel").hide();
+      }
+    });
+  });
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
