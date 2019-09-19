@@ -11,228 +11,120 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm mt-16 mb-3">
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav4" aria-controls="navbarNav4" aria-expanded="false" aria-label="Toggle navigation">
-           <span class="navbar-toggler-icon"></span>
-       </button>
-       <a class="navbar-brand" href="#"><span id="logo" class="iconify" data-icon="fa-brands:airbnb" data-inline="false"></span></a>
-       <a href="#"><div class="fa fa-chevron-down rotate fa-angle-down button-toggle"></div></a>
-        <div class="menu panel-body">
-          <ul>
-            <a href=""><li>ホーム</li></a>
-            <hr>
-            <a href=""><li>友達を招待する</li></a>
-            <a href=""><li>Refer hosts</li></a>
-            <a href=""><li>Airbnbビジネスプログラム</li></a>
-            <hr>
-            <a href=""><li>お部屋を掲載
-            <p><span>月あたり最大115,410</span>の収益<i class="fas fa-home"></i></p></li></a>
-            <a href=""><li>お家のホスティングについて</li></a>
-            <a href=""><li>体験をホストする
-            <p>好きを仕事に</p></li></a>
-            <hr>
-            <a href=""><li>ヘルプ</li></a>
-            <a href=""><li>登録する</li></a>
-            <a href=""><li>ログイン</li></a>
-          </ul>
-        </div>
-        <div class="navbar navbar-fixed-top">
-          <div class="navbar-inner">
-            <div class="container">
-              <div class="navbar-search">
-                <i class="fas fa-search"></i>
-                <input type="text" id="query" class="search-query span3" placeholder="探す">
-              </div>
-            </div>
-          </div>
-        <!-- <div class="form-inline"> -->
-
-        </div>
-      <div class="collapse navbar-collapse justify-content-end hidden-tablet hidden-phone">
-           <ul class="navbar-nav">
-               <li class="nav-item active">
-                   <a class="nav-link" href="#">ホストをはじめる</a>
-               </li>
-               <li class="nav-item">
-                   <a class="nav-link" href="#">ヘルプ</a>
-               </li>
-               <li class="nav-item">
-                   <a class="nav-link" href="#">登録する</a>
-               </li>
+      <!-- header bigin  -->
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">概要 <span class="sr-only">(current)</span></a>
+              </li>
               <li class="nav-item">
-                   <a class="nav-link" href="#">ログイン</a>
-               </li>
-           </ul>
-      </div>
-   <a  id="cancel" href="">キャンセル</a>
-   </nav>
-
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12 position-fixed notice" style="background-color:#C2E4E7;">
-            <p><i class="far fa-comment-dots fa-2x"></i>今のところ、ギフトカードはアメリカ居住者のみご購入いただけます。アメリカにお住いの場合は、アカウントの設定から居住国を更新してください。</p>
-            <i id="close" class="fa fa-lg fa-times close-modal"></i>
-        </div>
-        <div class="col-12 main">
-          <h1>旅を贈ろう。</h1>
-          <p id="msg">Airbnbギフトカードで、世界をぐんと身近に</p>
-          <button type="button" class="gift-btn btn btn-light btn-lg">ギフトカードを登録</button>
-        </div>
-
-        <div class="col-lg-12 col-xs-12 main1 row">
-          <h1 class="center-block">いつも完璧な贈りもの</h1>
-        </div>
-        <div class="row main2">
-          <div class="col-md-4 col-xs-12">
-            <div id="sub" >
-              <i class="far fa-envelope"></i>
-              <h3 class="msg1">簡単に使える</h3>
-              <p class="msg2">ギフトカードはメールで届きます。Airbnbアカウントへのギフト登録も超かんたん。</p>
-            </div>
+                <a class="nav-link" href="#">準備</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">安全</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">マネープラン</a>
+              </li>
+            </ul>
+            
+            <form class="form-inline my-2 my-lg-0">
+              <p>予想月収
+              <i class="far fa-question-circle"></i></p>
+              <p>&yen;113,700</p>
+              <button class="btn  my-2 my-sm-0 btn-danger" type="submit">はじめる</button>
+            </form>
           </div>
-          <div class="col-md-4 col-xs-12">
-            <div id="sub" >
-              <i class="fas fa-stopwatch"></i>
-              <h3 class="msg1">有効期限なし</h3>
-              <p class="msg2">Airbnbギフトカードは無期限。だから友達も時間をかけて旅をプランできます。</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-xs-12">
-            <div  id="sub" >
-              <i class="fas fa-globe"></i>
-              <h3 class="msg1">忘れられない旅</h3>
-              <p class="msg2">お家は100万件以上あるので、ずっと住みたいと憧れていた街の暮らしも叶います。</p>
-            </div>
-          </div>
-      </div>
-
-      <div class="col-12 main3">
-        <div class="sub1">
-          <h1>ギフトカードをもらったら…</h1>
-          <p>ログインあるいは利用登録してギフトを登録するだけです。あとは使い途をゆっくり考えましょう。</p>
-            <button type="button" class="btn btn-danger border-0" style="font-weight:bold; height: 42px; width:232px;">ギフトカードを登録する</button>
-          <div><a href="">Airbnbギフトカードの仕組みは？</a></div>
+        </nav> 
+      </header>
+      <!-- header end  -->
+  
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container"> 
+            <form class="form">
+                <h1>空き部屋で世界をつなごう</h1>
+                  <div class="form-group">
+                      <label for="inputAddress">どれくらいの収入が見込めるかチェック</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="日本、埼玉県新座市">
+                    </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <select id="inputState" class="form-control">
+                            <option selected>まるまる貸切</option>
+                            <option>個室</option>
+                            <option>シェアルーム</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <select id="inputState" class="form-control">
+                          <option selected>ゲスト4人</option>
+                          <option>ゲスト1人</option>
+                          <option>ゲスト2人</option>
+                          <option>ゲスト3人</option>
+                          <option>ゲスト4人</option>
+                          <option>ゲスト5人</option>
+                          <option>ゲスト6人</option>
+                          <option>ゲスト7人</option>
+                          <option>ゲスト8人</option>
+                          <option>ゲスト9人</option>
+                          <option>ゲスト10人</option>
+                          <option>ゲスト11人</option>
+                          <option>ゲスト12人</option>
+                          <option>ゲスト13人</option>
+                          <option>ゲスト14人</option>
+                          <option>ゲスト15人</option>
+                          <option>ゲスト16人</option>
+        
+                        </select>
+                    </div>
+                  </div>
+                  <p><span>&yen;113,700</span>月あたり
+                  <i class="far fa-question-circle"></i></p>
+                  <button class="btn  my-2 my-sm-0 btn-danger" type="submit">はじめる</button>
+                </form>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="row wrapper-footer">
-  <div class="col-md-3 footer">
-    <div>
-      <p>Airbnb</p>
-      <ul>
-        <li><a href="">採用情報</a></li>
-        <li><a href="">ポリシー</a></li>
-        <li><a href="">ニュース</a></li>
-        <li><a href="">ヘルプ</a></li>
-        <li><a href="">ダイバーシティ&ビロンギング</a></li>
-        <li class="new"><a href="">アクセシビリティ対応</a></li>
-        <li><a href="">企業情報</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="col-md-3 footer">
-    <div>
-      <p>スタッフのおすすめ</p>
-      <ul>
-        <li><a href="">信頼&安全</a></li>
-        <li><a href="">お友達紹介クーポン</a></li>
-        <li><a href="">Airbnb Citizen</a></li>
-        <li><a href="">出張</a></li>
-        <li><a href="">ガイドブック</a></li>
-        <li><a href="">Airbnbmag</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="col-md-3 footer">
-    <div>
-      <p>ホスティング</p>
-      <ul>
-        <li><a href="">ホストになる理由</a></li>
-        <li><a href="">おもてなしの心</a></li>
-        <li><a href="">ホストの責任</a></li>
-        <li><a href="">コミュニティセンター</a></li>
-        <li class="new"><a href="">体験を掲載</a></li>
-        <li><a href="">オープンホーム</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="col-md-3 footer">
-    <div>
-      <ul>
-        <i class="fab fa-facebook-f"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-instagram"></i>
-        <li><a href="">利用規約</a></li>
-        <li><a href="">プライバシー</a></li>
-        <li><a href="">サイトマップ</a></li>
-      </ul>
-    </div>
-  </div>
-  </div>
-  <hr id="border">
 
-  <footer>
-    <div id="logo-footer" class="iconify" data-icon="fa-brands:airbnb" data-inline="false"></div>
-    <div class="msg3">
-      <a href="">Airbnb Global Services Limited<br>
-      観光庁長官(01)第S0001号(2018年6月15<br class="sp_br">日-2023年6月14日)</a>
-      <p>&copy; 2019 Airbnb, Inc. All rights reserved.</p>
-    </div>
-      <button class="button yen" type="button" name="button">JPY - &yen;</button>
-      <button class="button japan" type="button" name="button">日本語</button>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script>
-      $(".close-modal").on("click", function() {
-        $(".notice").remove();
-      });
-    </script>
+          <!-- form begin  -->
+      
+
+    
+   
+
+
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js?ver=1.8.3"></script>
-    <script>
-  $(function(){
-    $(".menu").css("display","none");
-    $(".button-toggle").on("click", function() {
-      $(".menu").slideToggle();
-      $(this).toggleClass("active");
-      $(this).toggleClass("down");
-      if($(this).hasClass('active')){
-      $( '.menu' ).next('ul').slideToggle();
-      $(".main2").hide();
-      $(".main3").hide();
-      $(".footer").hide();
-      $(".msg3").hide();
-      $(".navbar-search").hide();
-      $("footer").hide();
-    } else {
-      $(".main2").show();
-      $(".main3").show();
-      //$(".footer").show();
-      $(".msg3").show();
-      $(".navbar-search").show();
-      $("footer").show();
-      }
-    });
-
-    $("#query,.fa-search").on("click", function() {
-      $(this).toggleClass("active");
-      if($(this).hasClass("active")){
-      $(".navbar-search").animate({'left':'-70px'},200);
-      $(".fa-search").hide();
-      $(".navbar-search .search-query:focus, .navbar-search .search-query.focused").css('padding-left','10px');
-      $("#cancel").fadeIn(1000);
-      } else {
-      $(".navbar-search").animate({'left':'30px'},200);
-      $(".fa-search").show();
-      $(".navbar-search .search-query:focus, .navbar-search .search-query.focused").css('padding-left','40px');
-      $("#cancel").hide();
-      }
-    });
-  });
-    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 
   </body>
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#config-web-app -->
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCxiakzS8BO2DcEUg88DJN0TStg9oe7vkc",
+        authDomain: "portfolio-3f996.firebaseapp.com",
+        databaseURL: "https://portfolio-3f996.firebaseio.com",
+        projectId: "portfolio-3f996",
+        storageBucket: "",
+        messagingSenderId: "4623907280",
+        appId: "1:4623907280:web:e24be858a13c9f82f921d5"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
 </html>
