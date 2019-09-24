@@ -1,3 +1,22 @@
+.nav-item {
+  display: none !important;
+}
+
+.brand {
+  color: #178F93;
+  font-size: 32px;
+}
+
+.form-inline p {
+  font-size: 14px;
+}
+
+.form-inline .income {
+  font-size: 24px;
+  font-weight: bold;
+  color: #484848;
+}
+
 .main_image {
   position: relative;
   width: 1600px;
@@ -23,3 +42,4 @@
   color: #333333;
   font-weight: bold;
 }
+
