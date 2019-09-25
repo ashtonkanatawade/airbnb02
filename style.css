@@ -1,10 +1,24 @@
+
 .nav-item {
   display: none !important;
+}
+
+.form-inline {
+  padding: 10px 60px 0 0;
+}
+
+.income {
+  padding-right: 10px;
+}
+
+.btn-begin-1 {
+  font-size: 14px !important;
 }
 
 .brand {
   color: #178F93;
   font-size: 32px;
+  margin-left: 90px; 
 }
 
 .form-inline p {
@@ -19,16 +33,18 @@
 
 .main_image {
   position: relative;
-  width: 1600px;
+  width: 100%;
+
   }
 
 .main_image img {
-  width: 1600px;
+  width: 100%;
+  height: 750px;
   }
 
 .form {
   position: absolute;
-  top: 100px;
+  top: 75px;
   right: 89px;
   width: 463px;
   height: 456px;
@@ -42,4 +58,22 @@
   color: #333333;
   font-weight: bold;
 }
+
+.form-income {
+  margin-bottom: 8px !important;
+}
+
+.form-group label {
+  margin-top: 15px;
+  font-weight: bold;
+} 
+
+.form-control {
+  height: 45px !important;
+  border: solid 1px #EBEBEB !important;
+
+}
+
+
+
 
