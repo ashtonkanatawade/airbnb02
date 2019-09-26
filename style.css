@@ -71,9 +71,62 @@
 .form-control {
   height: 45px !important;
   border: solid 1px #EBEBEB !important;
+}
+
+.yen {
+  font-size: 40px;
+  font-weight: bold;
+  display: inline;
+}
+
+.yen + p {
+  display: inline;
+  font-size: 14px;
+}
+
+.fa-question-circle {
+  font-size: 14px;
+}
+
+.btn-begin-2 {
+  width: 400px !important;
+  height: 50px;
+  font-weight: bold !important;
+  background-color: #FF5A5F !important;
+  border-color: #FF5A5F  !important;
 
 }
 
+/* remove the original arrow */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  /* no standardized syntax available, no ie-friendly solution available */
+}
 
+select + i.fas {
+  float: right;
+  margin-top: -30px;
+  margin-right: 5px;
+  /* this is so when you click on the chevron, your click actually goes on the dropdown menu */
+  pointer-events: none;
+  /* everything after this is just to cover up the original arrow */
+  /* (for browsers that don't support the syntax used above) */
+  background-color: #fff;
+  padding-right: 5px;
+}
 
+.msg-wrapper .row {
+  margin: 50px 45px 0 45px !important;
+  /* width: auto;   */
+}
 
+.msg {
+  color: #484848;
+}
+
+.msg h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
