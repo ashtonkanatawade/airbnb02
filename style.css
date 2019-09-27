@@ -1,3 +1,6 @@
+a {
+  color:#008489 !important;
+}
 
 .nav-item {
   display: none !important;
@@ -118,15 +121,49 @@ select + i.fas {
 }
 
 .msg-wrapper .row {
-  margin: 50px 45px 0 45px !important;
+  margin: 50px 40px 0 40px !important;
   /* width: auto;   */
+}
+
+.msg-wrapper {
+  padding-bottom: 155px;
 }
 
 .msg {
   color: #484848;
+  padding: 0 25px !important;
 }
 
 .msg h1 {
   font-size: 24px;
   font-weight: bold;
+  padding-bottom: 10px;
+  white-space: nowrap;
+}
+
+.msg p {
+  text-align: justify;
+}
+
+  /* msg-3step-wrapper begin  */
+
+  .msg-3step-wrapper {
+    color: #484848;
+    
+  }
+
+  .msg-3step-wrapper h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+  }
+
+  hr {
+    width: 5%;
+    border: none;
+    height: 1px !important;
+    margin-top:1px;
+    /* Set the hr color */
+    color: #787878; /* old IE */
+    background-color: #787878; /* Modern Browsers */
 }
