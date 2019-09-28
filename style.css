@@ -156,8 +156,22 @@ select + i.fas {
     text-align: center;
     font-weight: bold;
     font-size: 60px;
+    margin-bottom: 50px;
   }
 
+  .msg-3step-wrapper h2 {
+
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+
+  }
+
+  .msg-3step-wrapper .col-4 {
+    padding: 0 40px;
+  }
+  
+  
   hr {
     width: 5%;
     border: none;
@@ -166,4 +180,78 @@ select + i.fas {
     /* Set the hr color */
     color: #787878; /* old IE */
     background-color: #787878; /* Modern Browsers */
+}
+
+.fa-check-circle {
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+
+.msg-3step-wrapper-msg {
+  font-size: 24px;
+  /* font-weight: bold; */
+  margin-bottom: 20px;
+  padding: 0 50px;
+}
+
+.msg-3step-wrapper-1 p {
+
+  padding: 0 50px;
+}
+
+.msg-3step-wrapper .row {
+  padding-bottom: 150px ;
+  
+}
+
+.msg-3step-wrapper-msg {
+  font-size: 32px !important;
+}
+
+.msg-3step-wrapper-1 {
+  padding-top: 40px;
+  }
+
+  .msg-3step-wrapper-1 .btn {
+    height:45px;
+    border: solid #333333 2px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 0 20px;
+    margin-left: 50px;
+    }
+
+    .msg-3step-wrapper-1 img {
+
+      margin-left: 50px;
+      margin-bottom: 10px;
+      }
+/* msg-3step-wrapper end  */
+
+.msg-safe .col-6  {
+  padding: 0 65px;
+
+}
+
+.msg-safe-1 {
+  padding-top: 30px !important;
+}
+
+.msg-safe p {
+  line-height: 28px;
+}
+
+.msg-safe ul {
+  list-style: none;
+}
+
+.msg-safe ul li {
+  line-height: 50px;
+}
+.msg-safe ul li:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+  padding-right: 10px;
+  color: #178F93;
 }
