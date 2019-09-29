@@ -131,7 +131,7 @@ select + i.fas {
 
 .msg {
   color: #484848;
-  padding: 0 25px !important;
+  padding: 0 35px !important;
 }
 
 .msg h1 {
@@ -149,6 +149,11 @@ select + i.fas {
 
   .msg-3step-wrapper {
     color: #484848;
+    
+  }
+
+  .msg-3step-wrapper .row {
+    padding-bottom: 80px !important;
     
   }
 
@@ -173,7 +178,7 @@ select + i.fas {
   
   
   hr {
-    width: 5%;
+    width: 8%;
     border: none;
     height: 1px !important;
     margin-top:1px;
@@ -226,11 +231,12 @@ select + i.fas {
       margin-left: 50px;
       margin-bottom: 10px;
       }
+
+
 /* msg-3step-wrapper end  */
 
 .msg-safe .col-6  {
-  padding: 0 65px;
-
+  padding: 0 30px 0 40px;
 }
 
 .msg-safe-1 {
@@ -254,4 +260,13 @@ select + i.fas {
   content: "\f00c";
   padding-right: 10px;
   color: #178F93;
+}
+
+.msg-safe-2 ul li {
+  width: 130% !important;
+}
+
+.msg-safe a img {
+  height: 581px;
+  width: 100%;
 }
