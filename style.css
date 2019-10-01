@@ -2,6 +2,10 @@ a {
   color:#008489 !important;
 }
 
+.navbar {
+  border-bottom: #EBEBEB solid 1px;
+}
+
 .nav-item {
   display: none !important;
 }
@@ -37,6 +41,7 @@ a {
 .main_image {
   position: relative;
   width: 100%;
+  padding-top: 80px;
 
   }
 
@@ -54,6 +59,7 @@ a {
   background-color: white;
   padding: 30px;
   border-radius: 5px;
+  margin-top: 80px;
 } 
 
 .form h1 {
@@ -287,4 +293,17 @@ select + i.fas {
   font-size: 18px;
   padding: 20px 0px;
   border-bottom: solid 1px #EBEBEB; 
+}
+
+.main-questions h2 {
+  padding-left: 55px;
+}
+
+.main-questions img {
+  width: 345px;
+  height: 185px;
+}
+
+.main-questions .col-4::nth-of-type(2) {
+  font: 32px;
 }
