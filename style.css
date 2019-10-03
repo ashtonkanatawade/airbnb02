@@ -42,13 +42,12 @@ a {
   position: relative;
   width: 100%;
   padding-top: 80px;
-
-  }
+}
 
 .main_image img {
   width: 100%;
   height: 750px;
-  }
+}
 
 .form {
   position: absolute;
@@ -103,7 +102,6 @@ a {
   font-weight: bold !important;
   background-color: #FF5A5F !important;
   border-color: #FF5A5F  !important;
-
 }
 
 /* remove the original arrow */
@@ -151,45 +149,39 @@ select + i.fas {
   text-align: justify;
 }
 
-  /* msg-3step-wrapper begin  */
+/* msg-3step-wrapper begin  */
 
-  .msg-3step-wrapper {
-    color: #484848;
-    
-  }
+.msg-3step-wrapper {
+  color: #484848;   
+}
 
-  .msg-3step-wrapper .row {
-    padding-bottom: 80px !important;
-    padding-left: 30px;
-    padding-right: 30px;
-    
-  }
+.msg-3step-wrapper .row {
+  padding-bottom: 80px !important;
+  padding-left: 30px;
+  padding-right: 30px;   
+}
 
-  .fa-inverse {
-    font-size: 16px;
-  }
+.fa-inverse {
+  font-size: 16px;
+}
 
-  .msg-3step-wrapper h1 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 60px;
-    margin-bottom: 50px;
+.msg-3step-wrapper h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 50px;
+}
 
-  }
-
-  .msg-3step-wrapper h2 {
-
-    font-size: 24px;
-    font-weight: bold;
-    padding-bottom: 10px;
-    padding-top: 10px;
-
-  }
+.msg-3step-wrapper h2 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
 
   .msg-3step-wrapper .col-4 {
     padding: 0 40px;
   }
-  
   
   hr {
     width: 8%;
@@ -285,7 +277,6 @@ select + i.fas {
   width: 100%;
 }
 
-
 /* main-questions */
 
 .main-questions ul li {
@@ -307,3 +298,99 @@ select + i.fas {
 .main-questions .col-4::nth-of-type(2) {
   font: 32px;
 }
+
+.detail p {
+  font-size: 14px;
+}
+
+ .detail-1  {
+   margin: 12px 0 0 0;
+}
+
+
+.detail-1 a, .detail-2 a {
+  color: #484848 !important;
+}
+
+.detail-2 a {
+  font-size: 14px;
+}
+
+.detail-2  {
+  margin-bottom: 3px;
+}
+.detail-1 a {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.detail .detail-1 {
+  padding-bottom: 0px !important;
+}
+
+.income-img {
+  position: relative;
+}
+
+.income-increase {
+  position: absolute;
+  top: 70px; 
+  left: 100px;
+  color: white;
+  width: 50%;
+}
+
+.income-increase h1 {
+  padding-right: 180px !important;
+  text-align: left;
+}
+
+.btn-income {
+  width: 108px !important;
+  height: 43px;
+  color: #484848 !important;
+}
+
+.footer {
+  font-size: 14px;
+  color: #767676 !important;
+  font-weight: bold;
+}
+
+.footer div ul li:hover {
+  text-decoration: underline;
+}
+
+.footer div ul li {
+  list-style: none;
+  
+}
+
+.footer div ul li a {
+  cursor: pointer;
+  color: #767676 !important;
+}
+
+.footer div p {
+  color: black;
+  margin-left: 40px;
+}
+
+.footer div i {
+  font-size: 17px;
+  margin-right: 12px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+
+.new:after {
+  content: "新着";
+  border: none;
+  background-color: #006A70;
+  color: white;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 0 5px 2px 5px;
+  margin-left: 4px;
+  border-radius: 5px;
+  }
