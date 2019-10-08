@@ -6,6 +6,10 @@ a {
   border-bottom: #EBEBEB solid 1px;
 }
 
+.main_msg {
+  display: none !important;
+}
+
 .nav-item {
   display: none !important;
 }
@@ -156,9 +160,10 @@ select + i.fas {
 }
 
 .msg-3step-wrapper .row {
-  padding-bottom: 80px !important;
+  /* padding-bottom: 80px !important; */
   padding-left: 30px;
   padding-right: 30px;   
+  padding-top: 100px;
 }
 
 .fa-inverse {
@@ -179,9 +184,9 @@ select + i.fas {
   padding-top: 10px;
 }
 
-  .msg-3step-wrapper .col-4 {
+  /* .msg-3step-wrapper .col-4 {
     padding: 0 40px;
-  }
+  } */
   
   hr {
     width: 8%;
@@ -204,11 +209,6 @@ select + i.fas {
 .msg-3step-wrapper-1 p {
 
   padding: 0 50px;
-}
-
-.msg-3step-wrapper .row {
-  padding-bottom: 150px ;
-  
 }
 
 .msg-3step-wrapper-msg {
@@ -394,3 +394,165 @@ select + i.fas {
   margin-left: 4px;
   border-radius: 5px;
   }
+
+  .border-1 {
+    width: 87%;
+    border: none;
+    height: 1px !important;
+    margin-top:1px;
+    /* Set the hr color */
+    color: #EBEBEB; /* old IE */
+    background-color: #EBEBEB; /* Modern Browsers */
+}
+
+.yenjpn {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  position: absolute;
+  right: 1%;
+  padding-right: 5%;
+}
+
+/* .japan {
+  order: 1;
+}
+
+.yen {
+  order: 2;
+} */
+
+#border {
+  margin: 0 90px;
+}
+
+footer {
+  margin: 0 90px;
+  font-size: 14px;
+  color: #767676;
+  font-weight: bold;
+  display: inline-block;
+  }
+  
+  footer a {
+    color: #767676 !important;
+  
+  }
+  
+  footer a:hover {
+    color: #767676;
+    text-decoration: underline;
+  }
+  
+  #logo-footer {
+    color: grey;
+    font-size: 22px;
+    display: inline-block;
+    float: left;
+    margin: 20px 5px 20px 0;
+  }
+  
+  .msg3 {
+    float: left;
+  }
+  
+  .button {
+    display: inline-block;
+      border-width: 1px !important;
+      border-style: solid !important;
+      border-color: rgb(235, 235, 235) !important;
+      /* border-image: initial !important; */
+      border-radius: 4px !important;
+    background-color: white;
+    width: 68px;
+    height: 36px;
+    font-weight: bold;
+    color: #767676;
+    float: right;
+    margin-left: 10px;
+  }
+  
+  footer {
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .button:focus {
+    outline:0;
+  }
+  
+  .button:hover {
+    background-color: rgb(235, 235, 235);
+  }
+  
+  .fab:hover {
+    cursor: pointer;
+  }
+  
+  .fa-angle-down {
+    display: none !important;
+  }
+  
+.japan, .yen-1 {
+  border: none !important;
+  color:#484848;
+  width: 78px;
+}
+
+.japan:hover, .yen-1:hover {
+  background-color: white !important;
+}
+  
+.footer-wrapper {
+  width: 90%;
+}
+
+.fa-chevron-down {
+  padding-left: 5px;
+
+}
+
+@media screen and (max-width: 1126px) {
+
+  nav {
+  display: none !important;
+}
+
+.main_image {
+  padding-top: 0px;
+
+}
+
+.form {
+  display: none !important;
+
+}
+
+.main_msg {
+  display: inline !important;
+}
+
+.main2 {
+  position: relative !important;
+  text-align: center !important;
+  color: white !important;
+  width: 100%;
+}
+
+.main_msg {
+  position: absolute !important;
+  bottom: 10px !important;
+  display: inline-block;
+ 
+
+
+
+}
+
+
+
+}
+
+
+
