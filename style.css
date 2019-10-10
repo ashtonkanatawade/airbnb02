@@ -525,7 +525,7 @@ footer {
 }
 
 .form {
-  display: none !important;
+  /* display: none !important; */
 
 }
 
@@ -538,18 +538,72 @@ footer {
   text-align: center !important;
   color: white !important;
   width: 100%;
+  margin:0;
 }
 
 .main_msg {
   position: absolute !important;
-  bottom: 10px !important;
-  display: inline-block;
  
+  display: inline-block;
+  color: white;
+  position  : absolute;
+	top       : 33%;
+	left      : 50%;
+  transform : translate(-50%, -50%);
+  font-size: 40px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
 
-
+.brand-white {
+  color: white !important;
+  position: absolute !important;
+  top:40px;
+  left:30px;
+  display: inline-block;
+  font-size: 32px;
+  text-align: center;
 
 }
 
+.form {
+  position: static;
+  width: 60%;
+  text-align: left;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  height: 300px;
+  background-color: white;
+  padding: 0px;
+  border-radius: 0px;
+  margin-top: 0px;
+  margin:auto;
+} 
+
+.form h1 {
+  display: none;
+} 
+
+.form-wrapper {
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  top: 300px;
+}
+
+.colorfilter-base {
+  background-color: black; /* カラーフィルタ効果の色を指定 */
+    display: inline-block;  /* (任意：インラインブロック化したい場合) */
+
+}
+.colorfilter-image {
+  opacity: 0.8;    /* カラーフィルタ効果の度合いを指定(※) */
+    display: block;
+}
+
+}
 
 
 }
