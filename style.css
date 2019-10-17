@@ -134,7 +134,7 @@ select + i.fas {
 }
 
 .msg-wrapper {
-  padding-bottom: 155px;
+  padding-bottom: 0px;
 }
 
 .msg {
@@ -630,6 +630,7 @@ footer {
 .msg-wrapper {
   position: relative;
   background: white;
+  padding-bottom: 155px;
 }
 
 .msg-3step-wrapper h1 {
@@ -642,7 +643,13 @@ hr {
 }
 
 .three-step-wrapper {
-  display: initial;
+  display: initial; 
+}
+
+.three-step {
+  margin: 10px auto;
+  max-width: 59.333333% !important;
+
 }
 
 }
