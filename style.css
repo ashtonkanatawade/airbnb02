@@ -190,6 +190,7 @@ select + i.fas {
 
   .three-step-wrapper {
     display: flex;
+    height: 300px;
   }
   
   hr {
