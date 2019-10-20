@@ -129,12 +129,14 @@ select + i.fas {
 }
 
 .msg-wrapper .row {
-  margin: 50px 40px 0 40px !important;
+  margin: 50px 0px 0 0px !important;
   /* width: auto;   */
 }
 
 .msg-wrapper {
   padding-bottom: 0px;
+  padding-left: 95px !important;
+  padding-right: 95px !important;
 }
 
 .msg {
@@ -161,9 +163,9 @@ select + i.fas {
 
 .msg-3step-wrapper .row {
   /* padding-bottom: 80px !important; */
-  padding-left: 30px;
-  padding-right: 30px;   
-  padding-top: 100px;
+  padding-left: 120px;
+  padding-right: 120px;  
+  /* padding-top: 100px; */
 }
 
 .fa-inverse {
@@ -213,11 +215,12 @@ select + i.fas {
 
 .msg-3step-wrapper-1 p {
 
-  padding: 0 50px;
+  padding: 0 50px 0 0;
 }
 
 .msg-3step-wrapper-msg {
   font-size: 32px !important;
+  padding-left: 0px !important;
 }
 
 .msg-3step-wrapper-1 {
@@ -230,20 +233,27 @@ select + i.fas {
     font-weight: bold;
     margin-top: 10px;
     padding: 0 20px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     }
 
     .msg-3step-wrapper-1 img {
 
-      margin-left: 50px;
+      /* margin-left: 50px; */
       margin-bottom: 10px;
       }
 
 
 /* msg-3step-wrapper end  */
+
+.msg-safe {
+  padding-left: 120px !important ;
+  padding-right: 120px !important;
+}
+
+
 .msg-safe .row {
   padding-bottom: 50px !important;
-
+  padding-top: 100px !important;
 }
 
 .msg-safe .col-6  {
@@ -561,14 +571,16 @@ footer {
   font-weight: bold;
 }
 
-.brand-white {
-  color: white !important;
+svg.brand-white.iconify {
+  /* color: white !important;
   position: absolute !important;
   top:40px;
   left:30px;
   display: inline-block;
   font-size: 32px;
-  text-align: center;
+  text-align: center; */
+  display: none !important;
+  
 
 }
 
@@ -650,6 +662,17 @@ hr {
 .three-step {
   margin: 10px auto;
   max-width: 59.333333% !important;
+
+}
+.brand-white {
+  color: white !important;
+  position: absolute !important;
+  top:40px;
+  left:30px;
+  display: inline-block;
+  font-size: 32px;
+  text-align: center;
+  
 
 }
 
