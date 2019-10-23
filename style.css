@@ -157,6 +157,10 @@ select + i.fas {
 
 /* msg-3step-wrapper begin  */
 
+.message {
+  padding-top: 100px;
+}
+
 .msg-3step-wrapper {
   color: #484848;   
 }
@@ -172,11 +176,12 @@ select + i.fas {
   font-size: 16px;
 }
 
-.msg-3step-wrapper h1 {
+.msg-3step-wrapper h1, .msg-safe h1, .main-questions h1 {
   text-align: center;
   font-weight: bold;
   font-size: 60px;
   margin-bottom: 50px;
+  color: #484848;
 }
 
 .msg-3step-wrapper h2 {
@@ -251,7 +256,7 @@ select + i.fas {
 }
 
 
-.msg-safe .row {
+.message1 {
   padding-bottom: 50px !important;
   padding-top: 100px !important;
 }
@@ -293,6 +298,13 @@ select + i.fas {
 }
 
 /* main-questions */
+.main-questions-wrap {
+  padding-bottom: 100px;
+}
+
+.main-questions h2 {
+  color: #484848;
+}
 
 .main-questions ul li {
   list-style: none;
@@ -302,7 +314,9 @@ select + i.fas {
 }
 
 .main-questions h2 {
-  padding-left: 55px;
+  /* padding-left: 55px; */
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .main-questions img {
@@ -341,6 +355,11 @@ select + i.fas {
 
 .detail .detail-1 {
   padding-bottom: 0px !important;
+}
+
+.detail {
+  /* padding-left: 0px !important; */
+  padding-right: 0px !important;
 }
 
 .income-img {
