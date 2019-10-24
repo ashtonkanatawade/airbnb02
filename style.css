@@ -313,15 +313,22 @@ select + i.fas {
   border-bottom: solid 1px #EBEBEB; 
 }
 
-.main-questions h2 {
+.main-questions-2 h2 {
   /* padding-left: 55px; */
   font-size: 24px;
   font-weight: bold;
+  color: #484848;
 }
 
-.main-questions img {
-  width: 345px;
-  height: 185px;
+.main-questions-2 img {
+  width: 370px;
+  height: 190px;
+}
+
+.main-questions-2  {
+  padding-left:50px !important;
+  padding-right: 50px !important;
+  padding-bottom: 100px;
 }
 
 .main-questions .col-4::nth-of-type(2) {
@@ -364,6 +371,7 @@ select + i.fas {
 
 .income-img {
   position: relative;
+  padding-bottom: 100px;
 }
 
 .income-increase {
@@ -376,7 +384,10 @@ select + i.fas {
 
 .income-increase h1 {
   padding-right: 180px !important;
+  padding-bottom: 30px !important;
   text-align: left;
+  font-weight: bold;
+  font-size:64px;
 }
 
 .btn-income {
