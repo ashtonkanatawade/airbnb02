@@ -550,7 +550,8 @@ footer {
 }
   
 .footer-wrapper {
-  width: 90%;
+  width: 50%;
+  height: 120px;
 }
 
 .fa-chevron-down {
@@ -658,10 +659,12 @@ svg.brand-white.iconify {
 .msg-parent {
     position: absolute;
     flex-direction: column;
-    bottom: -200px;
+    bottom: -230px;
     background-color: white;
-    padding-left: 17%;
-    padding-right: 17%;
+    padding-left: 13%;
+    padding-right: 22%;
+
+ 
 }
   
   
@@ -686,11 +689,11 @@ hr {
 }
 
 .three-step-wrapper {
-  display: initial; 
+  display: initial !important; 
 }
 
 .three-step {
-  margin: 10px auto;
+  margin: 40px auto;
   max-width: 59.333333% !important;
 
 }
@@ -702,8 +705,14 @@ hr {
   display: inline-block;
   font-size: 32px;
   text-align: center;
-  
+}
 
+.message {
+  padding-top: 300px;
+}
+
+.message h1 {
+  margin-bottom: 0px;
 }
 
 }
