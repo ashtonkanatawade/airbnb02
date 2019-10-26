@@ -212,7 +212,7 @@ select + i.fas {
 
 
 .msg-3step-wrapper-msg {
-  font-size: 24px;
+  /* font-size: 24px; */
   /* font-weight: bold; */
   margin-bottom: 20px;
   padding: 0 50px;
@@ -715,6 +715,20 @@ hr {
   margin-bottom: 0px;
 }
 
+.msg-3step-wrapper-msg {
+  font-size: 18px !important;
+  color: #7D7D7D;
+  font-weight: normal;
+}
+
+.msg-3step-wrapper-1 img {
+  width: 37px;
+}
+
+.msg-3step-image {
+  height: 323px !important;
+  width: 323px !important;
+}
 }
 
 
