@@ -1,16 +1,18 @@
-a {
+header a {
   color:#008489 !important;
+  font-weight: bold;
 }
 
 .navbar {
   border-bottom: #EBEBEB solid 1px;
 }
 
-.main_msg {
-  display: none !important;
+.brand {
+  margin-left: 10px !important;
+  font-size: 36px !important;
 }
 
-.nav-item {
+.main_msg {
   display: none !important;
 }
 
@@ -697,6 +699,11 @@ hr {
   max-width: 59.333333% !important;
 
 }
+
+svg.brand-white.iconify {
+  display: inline !important;
+}
+
 .brand-white {
   color: white !important;
   position: absolute !important;
@@ -705,6 +712,10 @@ hr {
   display: inline-block;
   font-size: 32px;
   text-align: center;
+}
+
+.brandwhite {
+  display: hide !important;
 }
 
 .message {
@@ -729,6 +740,11 @@ hr {
   height: 323px !important;
   width: 323px !important;
 }
+
+.nav-item {
+  display: none !important;
+}
+
 }
 
 
