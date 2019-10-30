@@ -5,12 +5,24 @@
 }
 
 a[href="gaiyou"] {
-  color:#008489 !important;
-  
+  color:#008489 !important;  
+}
+
+.gaiyou {
+  border-bottom: solid 2px #008489;
+  padding-bottom: 30px;;
+}
+
+.nav-item {
+  height: 70px;
+}
+
+.nav-link {
+  padding-top: 25px !important;
+  padding-right: 20px !important;
 }
 
 .nav-link p {
-  border-bottom: solid 2px #008489;
   margin-bottom: 0px;
 }
 
@@ -571,6 +583,11 @@ footer {
   padding-left: 5px;
 
 }
+rp
+.brand-white {
+  display: none;
+}
+
 
 @media screen and (max-width: 1126px) {
 
@@ -613,19 +630,6 @@ footer {
   width: 100%;
   text-align: center;
   font-weight: bold;
-}
-
-svg.brand-white.iconify {
-  /* color: white !important;
-  position: absolute !important;
-  top:40px;
-  left:30px;
-  display: inline-block;
-  font-size: 32px;
-  text-align: center; */
-  display: none !important;
-  
-
 }
 
 .form {
@@ -711,9 +715,10 @@ hr {
 
 }
 
-svg.brand-white.iconify {
+/* svg.brand-white.iconify {
   display: inline !important;
-}
+  z-index: 10;
+} */
 
 .brand-white {
   color: white !important;
@@ -723,10 +728,6 @@ svg.brand-white.iconify {
   display: inline-block;
   font-size: 32px;
   text-align: center;
-}
-
-.brandwhite {
-  display: hide !important;
 }
 
 .message {
