@@ -1,3 +1,7 @@
+a {
+  color:#008489 !important; 
+}
+
 .nav-link {
   color: #484848 !important;
   font-size: 14px !important;
@@ -145,10 +149,7 @@ select + i.fas {
   float: right;
   margin-top: -30px;
   margin-right: 5px;
-  /* this is so when you click on the chevron, your click actually goes on the dropdown menu */
   pointer-events: none;
-  /* everything after this is just to cover up the original arrow */
-  /* (for browsers that don't support the syntax used above) */
   background-color: #fff;
   padding-right: 5px;
 }
@@ -581,13 +582,11 @@ footer {
 
 .fa-chevron-down {
   padding-left: 5px;
-
 }
-rp
+
 .brand-white {
   display: none;
 }
-
 
 @media screen and (max-width: 1126px) {
 
@@ -728,6 +727,17 @@ hr {
   display: inline-block;
   font-size: 32px;
   text-align: center;
+}
+
+.chevron-down {
+  color: white !important;
+  position: absolute !important;
+  top:50px;
+  left:65px;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  font-weight: normal !important;
 }
 
 .message {
