@@ -1,3 +1,8 @@
+.msg-3step-image {
+  height: 515px !important;
+  width: 515px !important;
+}
+
 a {
   color:#008489 !important; 
 }
@@ -73,12 +78,12 @@ a[href="gaiyou"] {
 
 .main_image {
   position: relative;
-  width: 1600px;
+  max-width: 1600px;
   padding-top: 80px;
 }
 
 .main_image img {
-  width: 1600px;
+  max-width: 1600px;
   height: 700px;
 }
 
@@ -280,10 +285,10 @@ select + i.fas {
 /* msg-3step-wrapper end  */
 
 .msg-safe {
+  padding-top: 130px !important;
   padding-left: 120px !important ;
   padding-right: 120px !important;
 }
-
 
 .message1 {
   padding-bottom: 50px !important;
@@ -343,7 +348,6 @@ select + i.fas {
 }
 
 .main-questions-2 h2 {
-  /* padding-left: 55px; */
   font-size: 24px;
   font-weight: bold;
   color: #484848;
@@ -372,7 +376,6 @@ select + i.fas {
    margin: 12px 0 0 0;
 }
 
-
 .detail-1 a, .detail-2 a {
   color: #484848 !important;
 }
@@ -394,7 +397,6 @@ select + i.fas {
 }
 
 .detail {
-  /* padding-left: 0px !important; */
   padding-right: 0px !important;
 }
 
@@ -404,8 +406,7 @@ select + i.fas {
 }
 
 .incom-img img {
-  width: 1600px;
-
+  width: 2000px !important;
 }
 
 .income-increase {
@@ -442,7 +443,6 @@ select + i.fas {
 
 .footer div ul li {
   list-style: none;
-  
 }
 
 .footer div ul li a {
@@ -493,14 +493,6 @@ select + i.fas {
   right: 1%;
   padding-right: 5%;
 }
-
-/* .japan {
-  order: 1;
-}
-
-.yen {
-  order: 2;
-} */
 
 #border {
   margin: 0 90px;
@@ -596,20 +588,13 @@ footer {
   display: none;
 }
 
-@media screen and (max-width: 1126px) {
-
+@media screen and (max-width: 1126px) { 
   nav {
   display: none !important;
 }
 
 .main_image {
   padding-top: 0px;
-
-}
-
-.form {
-  /* display: none !important; */
-
 }
 
 .main_msg {
@@ -626,7 +611,6 @@ footer {
 
 .main_msg {
   position: absolute !important;
- 
   display: inline-block;
   color: white;
   position  : absolute;
@@ -669,8 +653,16 @@ footer {
 .colorfilter-base {
   background-color: black; /* カラーフィルタ効果の色を指定 */
     display: inline-block;  /* (任意：インラインブロック化したい場合) */
-
 }
+
+.msg-safe-2 {
+  padding-left: 0px !important;
+}
+
+.msg-safe-2 > ul {
+  padding-top: 18px !important;
+}
+
 .colorfilter-image {
   opacity: 0.8;    /* カラーフィルタ効果の度合いを指定(※) */
     display: block;
@@ -687,29 +679,23 @@ footer {
     background-color: white;
     padding-left: 13%;
     padding-right: 22%;
-
- 
 }
   
-  
 .msg  {
-  text-align: left;
-  
+  text-align: left;  
 }
 
 .msg-wrapper {
   position: relative;
   background: white;
-  padding-bottom: 155px;
 }
 
-.msg-3step-wrapper h1 {
+.msg-3step-wrapper h1,.message1 h1,.main-questions h1 {
   font-size: 40px;
 }
 
 hr {
   width: 6%;
-
 }
 
 .three-step-wrapper {
@@ -722,10 +708,9 @@ hr {
 
 }
 
-/* svg.brand-white.iconify {
-  display: inline !important;
-  z-index: 10;
-} */
+.msg-safe {
+  padding-top: 80px !important;
+}
 
 .brand-white {
   color: white !important;
@@ -774,6 +759,7 @@ hr {
 .nav-item {
   display: none !important;
 }
+
 
 }
 
