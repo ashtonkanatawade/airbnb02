@@ -347,7 +347,7 @@ select + i.fas {
   border-bottom: solid 1px #EBEBEB; 
 }
 
-.main-questions-2 h2 {
+.main-questions-2 h2, .main-questions-2-small h2 {
   font-size: 24px;
   font-weight: bold;
   color: #484848;
@@ -588,6 +588,10 @@ footer {
   display: none;
 }
 
+.main-questions-2-small {
+  display: none;
+}
+
 @media screen and (max-width: 1126px) { 
   nav {
   display: none !important;
@@ -775,4 +779,17 @@ hr {
   font-size: 16px;
   padding: 20px 0px;
   border-bottom: solid 1px #EBEBEB; 
+}
+
+.main-questions-2 {
+  display: none;
+}
+
+.main-questions-2-small {
+  display: inline;
+}
+
+.main-questions-2-small img {
+  max-width: 200px;
+  max-height: 100px;
 }
