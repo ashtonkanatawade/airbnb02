@@ -786,10 +786,16 @@ hr {
 }
 
 .main-questions-2-small {
-  display: inline;
+  display: block;
 }
 
 .main-questions-2-small img {
   max-width: 200px;
   max-height: 100px;
 }
+
+/* .main-questions-2-small h2 {
+  display: block;
+  max-width: 600px;
+  margin:0;
+} */
