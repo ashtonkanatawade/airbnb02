@@ -787,11 +787,13 @@ hr {
 
 .main-questions-2-small {
   display: block;
+  width: 660px !important;
+  margin: 0 auto !important;
 }
 
 .main-questions-2-small img {
-  max-width: 200px;
-  max-height: 100px;
+  max-width: 220px;
+  max-height: 120px;
 }
 
 /* .main-questions-2-small h2 {
@@ -799,3 +801,11 @@ hr {
   max-width: 600px;
   margin:0;
 } */
+
+.container-questions-2 {
+  display: flex;
+}
+
+.container-questions-2 > .card:not(:last-child) {
+  margin-right: 15px;
+}
