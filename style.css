@@ -76,7 +76,13 @@ a[href="gaiyou"] {
   color: #484848;
 }
 
-.main_image {
+.jumbotron { background:url(img/main2.jpg) center no-repeat; 
+  background-size: cover; 
+  max-width: 1600px; 
+  height: 800px;
+} 
+
+/* .main_image {
   position: relative;
   max-width: 1600px;
   padding-top: 80px;
@@ -85,7 +91,7 @@ a[href="gaiyou"] {
 .main_image img {
   max-width: 1600px;
   height: 700px;
-}
+} */
 
 .chevron-down {
   display: none;
@@ -592,6 +598,10 @@ footer {
   display: none;
 }
 
+.main-questions-wrap-single {
+  display: none !important;
+}
+
 @media screen and (max-width: 1126px) { 
   nav {
   display: none !important;
@@ -656,7 +666,7 @@ footer {
 
 .colorfilter-base {
   background-color: black; /* カラーフィルタ効果の色を指定 */
-    display: inline-block;  /* (任意：インラインブロック化したい場合) */
+  display: inline-block;  /* (任意：インラインブロック化したい場合) */
 }
 
 .msg-safe-2 {
