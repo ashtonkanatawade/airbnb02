@@ -80,6 +80,7 @@ a[href="gaiyou"] {
   background-size: cover; 
   max-width: 1600px; 
   height: 800px;
+  padding: 0 !important;
 } 
 
 /* .main_image {
@@ -628,7 +629,7 @@ footer {
   display: inline-block;
   color: white;
   position  : absolute;
-	top       : 33%;
+	top       : 43%;
 	left      : 50%;
   transform : translate(-50%, -50%);
   font-size: 40px;
