@@ -820,3 +820,31 @@ hr {
 .container-questions-2 > .card:not(:last-child) {
   margin-right: 15px;
 }
+
+.msg-wrapper .row {
+  margin: 0px !important;
+}
+
+.jumbotron { background:url(img/main2.jpg) center no-repeat; 
+  background-size: cover; 
+  max-width: 1600px; 
+  height: 680px;
+  padding: 0 !important;
+}
+
+.card-title a {
+  font-size: 14px;
+  color: #484848 !important;
+  font-weight: bold;
+}
+
+.card-text  a {
+  font-size: 14px;
+  color: #484848 !important;
+}
+
+.card-body {
+  padding-top: 0 !important;
+}
+
+} 
