@@ -834,7 +834,7 @@ hr {
 
 .card-title a {
   font-size: 14px;
-  color: #484848 !important;
+  color: hsl(0, 0%, 28%) !important;
   font-weight: bold;
 }
 
@@ -846,5 +846,14 @@ hr {
 .card-body {
   padding-top: 0 !important;
 }
+
+.income-img {
+  padding-top: 100px ;
+}
+
+.income-increase h1 {
+  padding-top: 100px;
+}
+
 
 } 
