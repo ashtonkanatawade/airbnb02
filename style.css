@@ -855,5 +855,13 @@ hr {
   padding-top: 100px;
 }
 
+footer {
+  display: flex !important;
+  margin: 0px 0px 0px 70px;
+  }
+
+  .yenjpn {
+    display: none;
+  }
 
 } 
