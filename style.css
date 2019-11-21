@@ -171,18 +171,22 @@ select + i.fas {
 }
 
 .msg-wrapper .row {
-  margin: 70px 0px 0 0px !important;
+  margin: 70px 0px 0px 0px !important;
+  max-width: 1000px !important;
 }
 
 .msg-wrapper {
   padding-bottom: 0px;
   padding-left: 95px !important;
   padding-right: 95px !important;
+  max-width: 1000px !important;
+ 
 }
 
 .msg {
   color: #484848;
   padding: 0 35px !important;
+
 }
 
 .msg h1 {
@@ -750,6 +754,7 @@ hr {
 
 .message {
   padding-top: 300px;
+  white-space: nowrap;
 }
 
 .message h1 {
