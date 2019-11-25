@@ -695,13 +695,15 @@ footer {
   width: 100% !important;
 }
 
-.msg-parent {
+.msg-wrapper {
     position: absolute;
     flex-direction: column;
     bottom: -230px;
     background-color: white;
-    padding-left: 13%;
-    padding-right: 22%;
+    /* padding-left: 60px !important;
+    padding-right: 60px !important; */
+    top:0px;
+    /* margin: 0 auto !important; */
 }
   
 .msg  {
