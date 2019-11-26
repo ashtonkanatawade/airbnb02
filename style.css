@@ -621,7 +621,7 @@ footer {
 }
 
 .main_msg {
-  display: inline !important;
+  display: inline !important; 
 }
 
 .main2 {
@@ -640,7 +640,7 @@ footer {
 	top       : 43%;
 	left      : 50%;
   transform : translate(-50%, -50%);
-  font-size: 40px;
+  font-size: 34px;
   width: 100%;
   text-align: center;
   font-weight: bold;
@@ -759,7 +759,7 @@ hr {
 }
 
 .message {
-  padding-top: 300px;
+  padding-top: 60px;
   white-space: nowrap;
 }
 
