@@ -79,8 +79,10 @@ a[href="gaiyou"] {
 .jumbotron { background:url(img/main2.jpg) center no-repeat; 
   background-size: cover; 
   max-width: 1600px; 
-  height: 800px;
+  height: 900px;
   padding: 0 !important;
+  margin: 0 auto !important;
+  position: relative;
 } 
 
 /* .main_image {
@@ -292,6 +294,9 @@ select + i.fas {
       margin-bottom: 10px;
       }
 
+.msg-safes2 {
+  display: none !important;
+}
 
 /* msg-3step-wrapper end  */
 
@@ -414,10 +419,13 @@ select + i.fas {
 .income-img {
   position: relative;
   padding-bottom: 100px;
+  max-width: 1300px !important;
+  margin: 0 auto !important;
+  
 }
 
 .incom-img img {
-  width: 2000px !important;
+  width: 2000px !important;  
 }
 
 .income-increase {
@@ -611,6 +619,9 @@ footer {
   display: none;
 }
 
+.footers {
+  border-bottom: #484848 1px solid !important;
+}
 @media screen and (max-width: 1126px) { 
   nav {
   display: none !important;
@@ -896,4 +907,5 @@ footer {
   padding-top: 30px;
 }
 
-} 
+
+}
