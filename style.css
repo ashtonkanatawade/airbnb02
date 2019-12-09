@@ -494,7 +494,7 @@ select + i.fas {
   }
 
   .border-1 {
-    width: 87%;
+    width: 1030px;
     border: none;
     height: 1px !important;
     margin-top:1px;
@@ -523,6 +523,7 @@ footer {
   color: #767676;
   font-weight: bold;
   display: inline-block;
+  height: 70px;
   }
   
   footer a {
@@ -540,7 +541,7 @@ footer {
     font-size: 22px;
     display: inline-block;
     float: left;
-    margin: 20px 5px 20px 0;
+    margin: 20px 5px 20px 40px;
   }
   
   .msg3 {
@@ -619,9 +620,10 @@ footer {
   display: none;
 }
 
-.footers {
+/* .footers {
   border-bottom: #484848 1px solid !important;
-}
+} */
+
 @media screen and (max-width: 1126px) { 
   nav {
   display: none !important;
@@ -648,10 +650,10 @@ footer {
   display: inline-block;
   color: white;
   position  : absolute;
-	top       : 43%;
+	top    : 250px;
 	left      : 50%;
   transform : translate(-50%, -50%);
-  font-size: 34px;
+  font-size: 40px;
   width: 100%;
   text-align: center;
   font-weight: bold;
