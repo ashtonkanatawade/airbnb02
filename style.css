@@ -830,7 +830,7 @@ hr {
 .main-questions-2-small {
   display: block;
   width: 660px !important;
-  margin: 0 auto !important;
+  margin: 50px auto 0 auto !important;
 }
 
 .main-questions-2-small img {
@@ -909,5 +909,20 @@ footer {
   padding-top: 30px;
 }
 
+.msg-safes2 {
+  display: inline !important;
+}
+
+.message1 {
+  padding-bottom: 0px !important;
+}
+
+.border-1 {
+  width: 850px;
+}
+
+.income-increase h1 {
+  font-size:40px;
+}
 
 }
