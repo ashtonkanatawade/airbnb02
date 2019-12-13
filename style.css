@@ -471,8 +471,13 @@ select + i.fas {
 
 .footer div p {
   color: black;
-  margin-left: 40px;
+  margin-left: 0px;
 }
+
+.footer div ul {
+  padding-left: 0px;
+}
+
 
 .footer div i {
   font-size: 17px;
@@ -620,9 +625,11 @@ footer {
   display: none;
 }
 
-/* .footers {
-  border-bottom: #484848 1px solid !important;
-} */
+.footers {
+  border-bottom: #EBEBEB 1px solid !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
 
 @media screen and (max-width: 1126px) { 
   nav {
@@ -918,7 +925,7 @@ footer {
 }
 
 .border-1 {
-  width: 850px;
+  width: 90%;
 }
 
 .income-increase h1 {
@@ -926,3 +933,4 @@ footer {
 }
 
 }
+  
