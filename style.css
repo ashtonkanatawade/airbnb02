@@ -471,13 +471,8 @@ select + i.fas {
 
 .footer div p {
   color: black;
-  margin-left: 0px;
+  margin-left: 40px;
 }
-
-.footer div ul {
-  padding-left: 0px;
-}
-
 
 .footer div i {
   font-size: 17px;
@@ -529,6 +524,10 @@ footer {
   font-weight: bold;
   display: inline-block;
   height: 70px;
+
+  border-top: #EBEBEB 1px solid;
+  width: 1030px;
+  margin: 0 auto;
   }
   
   footer a {
@@ -546,7 +545,7 @@ footer {
     font-size: 22px;
     display: inline-block;
     float: left;
-    margin: 20px 5px 20px 40px;
+    margin: 20px 5px 20px 0px;
   }
   
   .msg3 {
@@ -625,11 +624,9 @@ footer {
   display: none;
 }
 
-.footers {
-  border-bottom: #EBEBEB 1px solid !important;
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-}
+/* .footers {
+  border-bottom: #484848 1px solid !important;
+} */
 
 @media screen and (max-width: 1126px) { 
   nav {
@@ -924,13 +921,69 @@ footer {
   padding-bottom: 0px !important;
 }
 
-.border-1 {
-  width: 90%;
+
+footer {
+  border-top: #EBEBEB 1px solid;
+  width: 750px;
+  margin: 0 auto;
 }
+
+/* .border-1 {
+  width: 850px;
+  border: none;
+  height: 1px !important;
+  margin-top:1px;
+  color: #EBEBEB; 
+  background-color: #EBEBEB; 
+} */
 
 .income-increase h1 {
   font-size:40px;
 }
 
 }
-  
+
+
+@media screen and (max-width: 743px) {
+
+.main_msg {
+    font-size: 32px;
+    text-align: left;
+    padding-left: 15px;
+  }
+
+.form  {
+  width: 95%;
+}
+
+.yen {
+  font-size: 32px;
+}
+.msg-parent {
+  width: 95%;
+}
+
+.msg-wrapper {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* .msg {
+  padding: 0 20px !important;
+} */
+
+.msg-3step-wrapper {
+  margin-left: 0px !important;
+}
+
+.msg-3step-wrapper .row {
+  padding-left: 5px !important;
+}
+
+hr {
+  text-align: left !important;
+  margin-left: 0px;
+  width: 60px;
+}
+
+}
