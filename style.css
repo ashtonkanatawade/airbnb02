@@ -747,7 +747,6 @@ hr {
 .three-step {
   margin: 40px auto;
   max-width: 59.333333% !important;
-
 }
 
 .msg-safe {
@@ -973,7 +972,9 @@ footer {
 } */
 
 .msg-3step-wrapper {
-  margin-left: 0px !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important; 
+  max-width: 100% !important;
 }
 
 .msg-3step-wrapper .row {
@@ -982,8 +983,21 @@ footer {
 
 hr {
   text-align: left !important;
-  margin-left: 0px;
+  margin-left: 0;
   width: 60px;
 }
+
+.three-step {
+  margin-left:0;
+  margin-right: 0;
+  padding-left: 0;
+  max-width: 100% !important;
+}
+
+.message h1 {
+  text-align: left;
+  padding-left: 15px;
+}
+
 
 }
