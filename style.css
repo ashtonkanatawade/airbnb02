@@ -999,5 +999,9 @@ hr {
   padding-left: 15px;
 }
 
+.msg-3step-image {
+  height: 643px !important;
+  width: 643px !important;
+}
 
 }
