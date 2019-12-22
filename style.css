@@ -983,7 +983,7 @@ footer {
 
 hr {
   text-align: left !important;
-  margin-left: 0;
+  margin-left: 15px;
   width: 60px;
 }
 
@@ -1002,6 +1002,18 @@ hr {
 .msg-3step-image {
   height: 643px !important;
   width: 643px !important;
+ 
 }
+
+.msg-safe {
+display: none;
+}
+
+.msg-safe1 {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  }
+
+
 
 }
