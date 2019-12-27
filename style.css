@@ -940,6 +940,10 @@ footer {
   font-size:40px;
 }
 
+.msg-3-image-wrapper {
+  display: none;
+}
+
 }
 
 
@@ -1014,6 +1018,33 @@ display: none;
   margin-right: 0 !important;
   }
 
+.msg-3-image-wrapper {
+  display: block;
+  max-width: 92%;
+  margin: 0 auto;
+}
+  
+.msg-3-image-wrapper .msg-3step-image1 {
+  width: 100%;
+}
 
+.msg-3-image-wrapper img {
+  padding-top: 10px;
+  width: 37px;
+}
+
+.msg-3-image-wrapper .btn {
+  height: 45px;
+  border: solid #333333 2px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 0 20px;
+  /* margin-left: 50px; */
+}
+
+.msg-3-image-wrapper p {
+  font-size: 14px;
+  color: #767676;
+}
 
 }
