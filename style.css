@@ -330,6 +330,7 @@ select + i.fas {
 .msg-safe ul li {
   line-height: 50px;
 }
+
 .msg-safe ul li:before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
@@ -1046,5 +1047,46 @@ display: none;
   font-size: 14px;
   color: #767676;
 }
+
+.message {
+  width: 700px !important;
+}
+
+.msg-3-image-wrapper hr {
+  margin-left: 0;
+  margin-top: 100px;
+}
+
+.msg-3-image-wrapper h1 {
+  color: #484848;
+  font-weight: bold;
+  margin-bottom: 70px;
+}
+
+.msg-3-image-wrapper p {
+  color: #484848;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 28px;
+}
+
+.msg-safe1 ul li:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+  padding-right: 10px;
+  color: #178F93;
+}
+
+.msg-safe1 ul {
+  list-style: none;
+  padding-left: 0;
+  padding-top: 30px;
+}
+
+.msg-safe1 li {
+  padding-bottom: 20px;
+}
+
 
 }
