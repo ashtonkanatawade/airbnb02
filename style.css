@@ -1109,6 +1109,22 @@ display: none;
   padding-left: 0;
 }
 
+.card-img {
+  padding-top: 0 !important;
+}
+
+.card-title-h4 {
+  font-size: 14px;
+  color: #484848;
+  font-weight: bold;
+}
+
+.card-text-p {
+  font-size: 14px !important;
+  color: #484848;
+}
+
+
 
 
 }
