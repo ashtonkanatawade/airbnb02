@@ -1124,7 +1124,20 @@ display: none;
   color: #484848;
 }
 
+.cards {
+  margin-top: 10px;
+  padding-left: 0 !important;
+ 
+}
 
+.msg-3-image-wrapper h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.main-questions-2-small {
+  display: none !important;
+}
 
 
 }
