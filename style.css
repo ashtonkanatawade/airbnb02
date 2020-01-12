@@ -1117,27 +1117,43 @@ display: none;
   font-size: 14px;
   color: #484848;
   font-weight: bold;
+  padding: 10px 0 0 10px;
 }
 
 .card-text-p {
   font-size: 14px !important;
   color: #484848;
+  padding: 0 0 0 10px;
 }
 
 .cards {
-  margin-top: 10px;
   padding-left: 0 !important;
- 
+  box-shadow: 1px 1px 15px -10px #7D7D7D;
+  height: 76px;
+  margin-bottom: 0 !important;
+  
 }
 
 .msg-3-image-wrapper h2 {
   font-size: 24px;
   font-weight: bold;
+  padding: 40px 0 10px 0;
 }
 
 .main-questions-2-small {
   display: none !important;
 }
 
+.income-img {
+  display: none;
+}
+
+.income-img1, .income-img1 img {
+  height: 375px !important;
+}
+
+.income-img1 img {
+  object-fit: cover;
+}
 
 }
