@@ -21,6 +21,10 @@ a {
   font-weight: bold;
 }
 
+.nav-scroll {
+  display: none !important;
+}
+
 a[href="gaiyou"] {
   color:#008489 !important;  
 }
@@ -643,6 +647,10 @@ footer {
 } */
 
 @media screen and (max-width: 1126px) { 
+.nav-scroll {
+  display: block !important;
+}
+  
   nav {
   display: none !important;
 }
