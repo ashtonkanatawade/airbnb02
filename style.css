@@ -1,3 +1,4 @@
+
 .msg-3step-image {
   height: 515px !important;
   width: 515px !important;
@@ -660,15 +661,25 @@ footer {
   
     }
 
+    .nav-clone span {
+    
+  
+      line-height: 45px;
+    }
+
     .nav-clone ul{
     margin: 0 ;
     padding: 0 ;
     padding-left:10px;
+    height: 45px;
+
     }
 
     .nav-clone li{
     list-style: none;
     display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
     /* width: 10%;
     min-width: 90px; */
     
@@ -680,13 +691,14 @@ footer {
     line-height: 45px;
     
     }
-    .nav-clone a.current{
+    /* .nav-clone a.current{
     color: #00B0F0;
     border-bottom:2px solid #00B0F0;
       }
+       */
+       
     .nav-clone a:hover{
-    color:#F7CB4D;
-    border-bottom:2px solid #F7CB4D;
+    border-bottom:2px solid black;
     }
 
 /* .nav-clone {
