@@ -522,7 +522,9 @@
       $(function() {
   var $window = $(window),
       $clone = $('.nav-clone'),
+      // $clone.hide();
       threshold = 0.1;
+
 
       $window.on('scroll',function(){
         if($window.scrollTop() > threshold) {
