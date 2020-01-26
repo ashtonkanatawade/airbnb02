@@ -20,16 +20,16 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="gaiyou"><p class="gaiyou">概要</p></a>
               </li>
               <li class="nav-item active">
                 <a class="nav-link" href="#"><p>準備</p></a>
               </li>
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="#"><p>安全</p></a>
               </li>
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="#"><p>マネープラン</p></a>
               </li>
             </ul> 
@@ -42,6 +42,20 @@
           </div>
         </nav> 
       </header>
+
+      <div class="nav-clone">
+          <ul>
+            <li><a href=”#”>概要</a></li>
+            <span>.</span>
+            <li><a href=”#”>準備</a></li>
+            <span>.</span>           
+             <li><a href=”#”>安全</a></li>
+            <span>.</span>
+            <li><a href=”#”>マネープラン</a></li>
+          </ul>
+      </div>
+   
+    
       <!-- header end  -->
 
       <!-- main image bigin  -->
@@ -292,18 +306,7 @@
                 </div>
           </div> 
 
-      
-     
-
-
-   
-     
-
-
-  
                <div class="container main-questions">
-            
-
                   <div class="row main-questions-wrap">
                     <div class="col-6" style="padding-right: 0px;">    
                       <ul>
@@ -334,7 +337,7 @@
                         </ul>
                       </div>
                     </div>
-                  </div>  
+                  <//div>  
 
                   <div class="container main-questions-2">
                     <h2>ホスティングの詳細はこちら</h2>
@@ -399,9 +402,7 @@
                     <button class="btn my-2 my-sm-0 btn-light btn-income font-weight-bold" type="submit">はじめる</button>
                   </div>
                 </div>
-                   
-                    
-
+                
                 <div class="income-img1">
                   <img class="img-fluid center-block" src="img/income.jpg" alt="income-img">
                   <div class="income-increase1">
@@ -466,28 +467,18 @@
                   </div>
                   </div>
               </div>
-                                <footer class="footer">
-                                    <div class="container">
-                                      <div id="logo-footer" class="iconify" data-icon="fa-brands:airbnb" data-inline="false"></div>
-                                      <div class="msg3">
-                                        <a href="">Airbnb Global Services Limited<br>
-                                        観光庁長官(01)第S0001号(2018年6月15日-2023年6月14日)
-                                        <br>&copy; 2019 Airbnb, Inc. All rights reserved.</a>
-                                      </div>
-                                    </div>
-                                  </footer>
-              
-                              <!-- <footer class="footer">
-                                <div class="container">
-                                  <div id="logo-footer" class="iconify" data-icon="fa-brands:airbnb" data-inline="false"></div>
-                                  <div class="msg3">
-                                    <a href="">Airbnb Global Services Limited<br>
-                                    観光庁長官(01)第S0001号(2018年6月15日-2023年6月14日)
-                                    <br>&copy; 2019 Airbnb, Inc. All rights reserved.</a>
-                                  </div>
-                                </div>
-                              </footer> -->
-                   
+
+              <footer class="footer">
+                  <!-- <div class="container"> -->
+                    <div id="logo-footer" class="iconify" data-icon="fa-brands:airbnb" data-inline="false"></div>
+                    <div class="msg3">
+                      <a href="">Airbnb Global Services Limited<br>
+                      観光庁長官(01)第S0001号(2018年6月15日-2023年6月14日)</a>
+                      <p>&copy; 2019 Airbnb, Inc. All rights reserved.</p>
+                    </div>
+                  <!-- </div> -->
+                </footer>
+  
                               
 
 
@@ -527,5 +518,23 @@
       };
       // Initialize Firebase
       firebase.initializeApp(firebaseConfig);
+
+
+
+      $(function() {
+  var startPos = 0,winScrollTop = 0;
+  var $window = $(window),
+      $clone = $('.nav-clone'),
+      threshold = 0.1;
+
+
+      $window.on('scroll',function(){
+        if($window.scrollTop() > threshold) {
+          $clone.fadeIn();
+        }else{
+          $clone.fadeOut();
+        }
+      });
+});
     </script>
 </html>
