@@ -1,3 +1,34 @@
+.nav-clone {
+  text-align: left;
+  display: none;
+  height: 45px;
+  background-color: #fff;
+  display: none;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 0;
+    }
+
+  .nav-clone ul{
+  margin: 0 ;
+  padding: 0 ;
+  padding-left:10px;
+  height: 45px;
+
+  }
+
+  .nav-clone li{
+  list-style: none;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 14px;
+  /* width: 10%;
+  min-width: 90px; */
+  
+  }
+
+
 
 .msg-3step-image {
   height: 515px !important;
@@ -648,6 +679,30 @@ footer {
 } */
 
 @media screen and (max-width: 1126px) { 
+  .footer-clone {
+    padding-left: 35px;
+    clear: both;
+  }
+
+  .footer-clone p {
+    margin: 0;
+  }
+
+  .footer-clone button {
+    float: right;
+  }
+  .gaiyou {
+    border-bottom: solid 2px #008489;
+    padding-bottom: 12px;
+    text-decoration: none !important;
+    
+  }
+
+  a[href="gaiyou"] {
+    color:#008489 !important;  
+    
+  }
+
   .nav-clone {
     text-align: left;
     display: none;
@@ -661,15 +716,13 @@ footer {
       }
 
     .nav-clone span {
-    
-  
-      line-height: 45px;
+      font-size: 14px;
     }
 
     .nav-clone ul{
     margin: 0 ;
     padding: 0 ;
-    padding-left:10px;
+    padding-left:30px;
     height: 45px;
 
     }
@@ -679,26 +732,28 @@ footer {
     display: inline-block;
     font-weight: bold;
     font-size: 14px;
-    /* width: 10%;
-    min-width: 90px; */
     
+
     }
  
-    .nav-clone a{
+    .menu-clone {
     text-decoration: none;
-    color: #333;
+    color: black !important;
     line-height: 45px;
     
     }
+
+  
+
     /* .nav-clone a.current{
     color: #00B0F0;
     border-bottom:2px solid #00B0F0;
       }
        */
        
-    .nav-clone a:hover{
+    /* .nav-clone a:hover{
     border-bottom:2px solid black;
-    }
+    } */
 
 /* .nav-clone {
 

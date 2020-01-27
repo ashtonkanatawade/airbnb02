@@ -1,0 +1,48 @@
+.nav-clone {
+  text-align: left;
+  height: 45px;
+  background-color: #fff;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+    }
+
+    ・
+
+    ul span {
+      /* background: #8AD5DF;
+      border: 1px solid #eee; */
+      /* color: #fff; */
+      font-size: 18px;
+      display: table-cell;
+      /* width: 150px;
+      height: 100px; */
+      text-align: center;
+      vertical-align: middle;
+     }
+
+  .nav-clone ul{
+  margin: 0 ;
+  padding: 0 ;
+  padding-left:10px;
+  height: 45px;
+  }
+
+  .nav-clone li{
+  list-style: none;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 14px;
+  }
+
+  .nav-clone a{
+  text-decoration: none;
+  color: #333;
+  line-height: 45px;
+  
+  }
+     
+  .nav-clone a:hover{
+  border-bottom:2px solid black;
+  }

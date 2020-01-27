@@ -45,13 +45,13 @@
 
       <div class="nav-clone">
           <ul>
-            <li><a href=”#”>概要</a></li>
-            <span>.</span>
-            <li><a href=”#”>準備</a></li>
-            <span>.</span>           
-             <li><a href=”#”>安全</a></li>
-            <span>.</span>
-            <li><a href=”#”>マネープラン</a></li>
+            <li><a href=”gaiyou” class="gaiyou">概要</a></li>
+            <span>・</span>
+            <li><a href=”#” class="menu-clone">準備</a></li>
+            <span>・</span>           
+             <li><a href=”#”  class="menu-clone">安全</a></li>
+            <span>・</span>
+            <li><a href=”#”  class="menu-clone">マネープラン</a></li>
           </ul>
       </div>
    
@@ -478,6 +478,12 @@
                     </div>
                   <!-- </div> -->
                 </footer>
+
+                <div class="footer-clone">
+                  <p>&yen;113,700</p>
+                  <p>予想月収<a href=""><i class="far fa-question-circle"></i></a></p>
+                  <button class="btn  my-2 my-sm-0 btn-danger btn-begin-1 font-weight-bold" type="submit">はじめる</button>
+                </div>
   
                               
 
@@ -519,10 +525,12 @@
       // Initialize Firebase
       firebase.initializeApp(firebaseConfig);
 
+
+
       $(function() {
+  var startPos = 0,winScrollTop = 0;
   var $window = $(window),
       $clone = $('.nav-clone'),
-      // $clone.hide();
       threshold = 0.1;
 
 
