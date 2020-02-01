@@ -1,3 +1,7 @@
+.nav-clone span {
+  visibility: hidden; 
+}
+
 .nav-clone {
   text-align: left;
   display: none;
@@ -8,6 +12,7 @@
   top: 0px;
   width: 100%;
   z-index: 0;
+
     }
 
   .nav-clone ul{
@@ -23,8 +28,7 @@
   display: inline-block;
   font-weight: bold;
   font-size: 14px;
-  /* width: 10%;
-  min-width: 90px; */
+  
   
   }
 
@@ -679,18 +683,30 @@ footer {
 } */
 
 @media screen and (max-width: 1126px) { 
+
+  .footer-child, .footer-button {
+    display: inline-block;
+  }
+
+  .footer-button {
+    float: right;
+  }
+
+  .footer-child {
+    float: left;
+  }
+
   .footer-clone {
     padding-left: 35px;
-    clear: both;
   }
 
   .footer-clone p {
     margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #484848;
   }
 
-  .footer-clone button {
-    float: right;
-  }
   .gaiyou {
     border-bottom: solid 2px #008489;
     padding-bottom: 12px;
@@ -722,7 +738,7 @@ footer {
     .nav-clone ul{
     margin: 0 ;
     padding: 0 ;
-    padding-left:30px;
+    padding-left:40px;
     height: 45px;
 
     }
@@ -738,7 +754,7 @@ footer {
  
     .menu-clone {
     text-decoration: none;
-    color: black !important;
+    color: #484848 !important;
     line-height: 45px;
     
     }
@@ -1078,6 +1094,10 @@ footer {
 
 
 @media screen and (max-width: 743px) {
+
+  .nav-clone span {
+    visibility: visible;
+  }
 
 .main_msg {
     font-size: 32px;
