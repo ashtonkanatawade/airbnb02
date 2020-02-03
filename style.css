@@ -690,6 +690,12 @@ footer {
 
   .footer-button {
     float: right;
+    margin-bottom: 0 !important;
+  }
+
+  .footer-button .btn-begin-1 {
+    margin:0 !important;
+
   }
 
   .footer-child {
@@ -697,7 +703,17 @@ footer {
   }
 
   .footer-clone {
-    padding-left: 35px;
+    border-top: 1px solid #EBEBEB;
+    padding-left: 25px;
+    padding-top: 15px;
+    /* margin-bottom: 5px; */
+    height: 60px;
+    display: none;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
   }
 
   .footer-clone p {
@@ -706,6 +722,22 @@ footer {
     font-weight: bold;
     color: #484848;
   }
+
+  .footer-button {
+    padding-right: 25px;
+  }
+
+  .footer-child p:nth-child(2) {
+    font-weight: normal !important;
+    font-size: 12px;
+  }
+
+.footer-child .fa-question-circle {
+  font-size: 12px;
+  color: #484848;
+  font-weight: normal;
+  }
+
 
   .gaiyou {
     border-bottom: solid 2px #008489;
