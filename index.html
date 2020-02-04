@@ -534,7 +534,7 @@
       $(function() {
   var startPos = 0,winScrollTop = 0;
   var $window = $(window),
-      $clone = $('.nav-clone'),
+      $clone = $('.nav-clone,.footer-clone'),
       threshold = 0.1;
 
 
@@ -547,21 +547,22 @@
       });
 });
 
-$(function() {
-  var startPos = 0,winScrollTop = 0;
-  var $window = $(window),
-      $clone = $('.footer-clone'),
-      threshold = 0.1;
+// $(function() { 
+//   var startPos = 0,winScrollTop = 0;
+//   var $window = $(window),
+//       $clone = $('.footer-clone'),
+//       threshold = 0.1;
 
 
-      $window.on('scroll',function(){
-        if($window.scrollTop() > threshold) {
-          $clone.fadeIn();
-        }else{
-          $clone.fadeOut();
-        }
-      });
-});
+//       $window.on('scroll',function(){
+//         if($window.scrollTop() > threshold) {
+//           $clone.fadeIn();
+//         }else{
+//           $clone.fadeOut();
+//         }
+//       });
+// });
+
 
     </script>
 </html>
