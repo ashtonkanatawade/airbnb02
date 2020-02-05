@@ -404,8 +404,8 @@
                 </div>
                 
                 <div class="income-img1">
-                  <img class="img-fluid center-block" src="img/income.jpg" alt="income-img">
                   <div class="income-increase1">
+                    <img class="img-fluid center-block" src="img/income.jpg" alt="income-img">
                     <h1>収入を増やしたい?</h1>
                     <button class="btn my-2 my-sm-0 btn-light btn-income font-weight-bold" type="submit">はじめる</button>
                   </div>
@@ -485,7 +485,7 @@
                     <p>予想月収 <a href=""><i class="far fa-question-circle"></i></a></p>
                   </div>
                   <div class="footer-button">
-                    <button class="btn  my-2 my-sm-0 btn-danger btn-begin-1 font-weight-bold" type="submit">はじめる</button>
+                    <!-- <button class="btn  my-2 my-sm-0 btn-danger btn-begin-1 font-weight-bold" type="submit">はじめる</button> -->
                   </div>
                 </div>
   
@@ -530,14 +530,12 @@
       firebase.initializeApp(firebaseConfig);
 
 
-
+      if (window.matchMedia( "(max-width: 768px)" ).matches){
       $(function() {
-  var startPos = 0,winScrollTop = 0;
-  var $window = $(window),
+      var startPos = 0,winScrollTop = 0;
+      var $window = $(window),
       $clone = $('.nav-clone,.footer-clone'),
       threshold = 0.1;
-
-
       $window.on('scroll',function(){
         if($window.scrollTop() > threshold) {
           $clone.fadeIn();
@@ -546,6 +544,9 @@
         }
       });
 });
+
+      
+      }
 
 // $(function() { 
 //   var startPos = 0,winScrollTop = 0;

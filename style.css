@@ -20,7 +20,6 @@
   border-top: 1px solid #EBEBEB;
   padding-left: 25px;
   padding-top: 15px;
-  /* margin-bottom: 5px; */
   height: 60px;
   display: none;
   position: fixed;
@@ -62,7 +61,6 @@ font-weight: normal;
   display: none;
   height: 45px;
   background-color: #fff;
-  display: none;
   position: fixed;
   top: 0px;
   width: 100%;
@@ -1387,6 +1385,11 @@ display: none;
   display: none;
 }
 
+.income-img1 {
+  display: inline;
+  height: 375px;
+}
+
 .income-img1, .income-img1 img {
   height: 375px !important;
 }
@@ -1396,29 +1399,38 @@ display: none;
 }
 
 .income-img1 {
-  position: relative;
   padding-bottom: 100px;
   margin-top:65px;
   max-width: 1300px !important;
-  margin: 0 auto !important;
-  
+  margin: 0 auto !important; 
 }
 
 .income-increase1 {
-  position: absolute;
-  top: 70px; 
-  left: 30px;
-  color: white;
+  height: 375px;
+  position: relative;
   /* width: 50%; */
 }
 
 .income-increase1 h1 {
   /* padding-right: 180px !important; */
+  position: absolute;
   padding-bottom: 30px !important;
   text-align: left;
   font-weight: bold;
   font-size:36px;
+  top: 70px; 
+  left: 30px;
+  color: white;
 }
+
+.income-increase1 .btn {
+  /* padding-right: 180px !important; */
+  position: absolute;
+  font-weight: bold;
+  top: 140px; 
+  left: 30px;
+}
+
 
 .footers {
   display: none;
