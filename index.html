@@ -543,10 +543,33 @@
           $clone.fadeOut();
         }
       });
+        });
+          }
+
+          $(function(){
+
+var aaa = $(".footer-clone");
+var bbb = 3100;
+
+$(document).ready(function(){
+	funcScrollToglle(aaa,bbb);
 });
 
-      
-      }
+/*****************************************************************/
+	function funcScrollToglle(){
+		$(window).scroll(function(){
+			var ccc = aaa.offset().top;
+			// $("#hoge").text("scrollTop" + $(this).scrollTop());
+			var scrollTop = $(window).scrollTop();
+			if(bbb <= ccc){
+				aaa.fadeIn();
+			}else if( bbb >= ccc){
+				aaa.fadeOut();
+			}
+		});
+	};
+/***********************************************************************/
+});
 
 // $(function() { 
 //   var startPos = 0,winScrollTop = 0;
