@@ -532,13 +532,15 @@
 
       if (window.matchMedia( "(max-width: 768px)" ).matches){
       $(function() {
-      // var startPos = 0,winScrollTop = 0;
       var $window = $(window),
       $clone = $('.nav-clone,.footer-clone'),
-      threshold = 0.1;
+      threshold = 0.1,
+      bbb = 3100;
       $window.on('scroll',function(){
         if($window.scrollTop() > threshold) {
           $clone.fadeIn();
+        }else if ($window.scrollTop() <= bbb) {
+          $clone.fadeOut();
         }else{
           $clone.fadeOut();
         }
@@ -546,47 +548,30 @@
         });
           }
 
-          $(function(){
+          // $(function(){
 
-var aaa = $(".footer-clone");
-var bbb = 3100;
-
-$(document).ready(function(){
-	funcScrollToglle(aaa,bbb);
-});
-
-/*****************************************************************/
-	function funcScrollToglle(){
-		$(window).scroll(function(){
-			var ccc = aaa.offset().top;
-			// $("#hoge").text("scrollTop" + $(this).scrollTop());
-			var scrollTop = $(window).scrollTop();
-			if(bbb <= ccc){
-				aaa.fadeIn();
-			}else if( bbb >= ccc){
-				aaa.fadeOut();
-			}
-		});
-	};
-/***********************************************************************/
-});
-
-// $(function() { 
-//   var startPos = 0,winScrollTop = 0;
-//   var $window = $(window),
-//       $clone = $('.footer-clone'),
-//       threshold = 0.1;
+// var aaa = $(".footer-clone");
 
 
-//       $window.on('scroll',function(){
-//         if($window.scrollTop() > threshold) {
-//           $clone.fadeIn();
-//         }else{
-//           $clone.fadeOut();
-//         }
-//       });
+// $(document).ready(function(){
+// 	funcScrollToglle(aaa,bbb);
 // });
 
+// /*****************************************************************/
+// 	function funcScrollToglle(){
+// 		$(window).scroll(function(){
+// 			var ccc = aaa.offset().top;
+// 			// $("#hoge").text("scrollTop" + $(this).scrollTop());
+// 			var scrollTop = $(window).scrollTop();
+// 			if(bbb <= ccc){
+// 				aaa.fadeIn();
+// 			}else if( bbb >= ccc){
+// 				aaa.fadeOut();
+// 			}
+// 		});
+// 	};
+// /***********************************************************************/
+// });
 
     </script>
 </html>
